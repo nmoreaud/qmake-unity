@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutoFillManager</class>
+ <widget class="QWidget" name="AutoFillManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Passwords are stored in:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="currentBackend"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="changeBackend">
+       <property name="text">
+        <string>Change backend</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="backendOptions">
+       <property name="text">
+        <string>Backend options</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabPass">
+      <attribute name="title">
+       <string>Passwords</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="TreeWidget" name="treePass">
+         <property name="indentation">
+          <number>0</number>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <attribute name="headerMinimumSectionSize">
+          <number>100</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Server</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Username</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Password</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <layout class="QHBoxLayout" name="showPasswordsLayout">
+         <item>
+          <widget class="QPushButton" name="importExport">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Import and Export</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="importExportLabel">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="showPasswords">
+           <property name="text">
+            <string>Show Passwords</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="search"/>
+       </item>
+       <item row="1" column="1" rowspan="2">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="editPass">
+           <property name="text">
+            <string>Edit</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="removePass">
+           <property name="text">
+            <string>Remove</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="removeAllPass">
+           <property name="text">
+            <string>Remove All</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabExcept">
+      <attribute name="title">
+       <string>Exceptions</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="TreeWidget" name="treeExcept">
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <column>
+          <property name="text">
+           <string>Server</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="removeExcept">
+           <property name="text">
+            <string>Remove</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="removeAllExcept">
+           <property name="text">
+            <string>Remove All</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>treewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

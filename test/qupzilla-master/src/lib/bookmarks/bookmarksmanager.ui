@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BookmarksManager</class>
+ <widget class="QWidget" name="BookmarksManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bookmarks</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="BookmarksTreeView" name="tree"/>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="editBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelTitle">
+        <property name="text">
+         <string>Title:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="title"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelAddress">
+        <property name="text">
+         <string>Address:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="address"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelKeyword">
+        <property name="text">
+         <string>Keyword:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="keyword"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="labelDescription">
+        <property name="text">
+         <string>Description</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPlainTextEdit" name="description">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BookmarksTreeView</class>
+   <extends>QTreeView</extends>
+   <header>bookmarkstreeview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

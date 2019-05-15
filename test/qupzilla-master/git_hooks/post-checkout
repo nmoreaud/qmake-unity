@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Writes git revision into git_revision file
+#
+git rev-parse HEAD > git_revision

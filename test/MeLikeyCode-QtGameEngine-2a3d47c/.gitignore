@@ -1,0 +1,8 @@
+# ignore all example project builds
+/example projects/build-*
+
+# ignore test project builds
+/build-*
+
+# ignore jekyll site folder
+/docs/_site

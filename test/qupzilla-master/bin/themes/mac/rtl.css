@@ -1,0 +1,35 @@
+#navigation-button-next
+{
+    qproperty-multiIcon: url(images/navigation-back.png);
+}
+
+#navigation-button-back
+{
+    qproperty-multiIcon: url(images/navigation-forward.png);
+}
+
+#navigation-button-tools
+{
+    qproperty-icon: url(images/navigation-tools-rtl.png);
+}
+
+
+#tabwidget-button-opentabs
+{
+    qproperty-multiIcon: url(images/tabs-list-button_rtl.png);
+}
+
+#tabwidget-button-closedtabs
+{
+    qproperty-multiIcon: url(images/tabs-closed-button-rtl.png);
+}
+
+#tabbar-button-right
+{
+    qproperty-icon: url(images/tab-left-arrow.png);
+}
+
+#tabbar-button-left
+{
+    qproperty-icon: url(images/tab-right-arrow.png);
+}

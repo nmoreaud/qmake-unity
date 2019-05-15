@@ -1,0 +1,9 @@
+== Tests ==
+
+- QupZilla builds only with MSVC and QtWebEngine
+It needs openssl library (I downloaded a precompiled version with msvc 2017)
+Compile projects : src/lib/lib.pro, src/plugins/plugins.pro
+
+- QtXlsxWriter builds with MinGW, and requires PERL.
+
+- QGE has been compiled with mingw and MSVC 2017 (no dependencies)

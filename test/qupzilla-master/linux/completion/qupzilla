@@ -1,0 +1,22 @@
+#
+# Bash completion for QupZilla
+#
+_qupzilla()
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts="-h --help -a --authors -v --version -p --profile=
+          -e --no-extensions -o --portable -t --new-tab
+          -w --new-window -i --private-browsing -d --download-manager
+          -f --fullscreen -r --no-remote -c --current-tab=
+          -u --open-window="
+
+    if [[ ${cur} == -* ]] ; then
+        COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+    else
+        _filedir
+    fi
+}
+complete -F _qupzilla qupzilla

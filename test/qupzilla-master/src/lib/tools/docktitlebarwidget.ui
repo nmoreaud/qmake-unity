@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DockTitleBarWidget</class>
+ <widget class="QWidget" name="DockTitleBarWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>116</width>
+    <height>24</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="label"/>
+   </item>
+   <item>
+    <widget class="MacToolButton" name="closeButton">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MacToolButton</class>
+   <extends>QToolButton</extends>
+   <header>mactoolbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

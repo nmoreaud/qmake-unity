@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AutoFillWidget</class>
+ <widget class="QWidget" name="AutoFillWidget">
+  <layout class="QGridLayout" name="gridLayout1">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Login as:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

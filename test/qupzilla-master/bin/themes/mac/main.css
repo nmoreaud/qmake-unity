@@ -1,0 +1,357 @@
+/*************************************
+ * Mac Theme                         *
+ * Author: nowrep                    *
+ * Based on: Firefox Mac OS X Theme  *
+ *************************************/
+
+*[html-link-look="true"]
+{
+    color: palette(link);
+    text-decoration: underline;
+}
+
+/*MainWindow*/
+#mainwindow
+{
+    background-color: #a7a7a7;
+}
+
+#mainwindow-menubar
+{
+    background-image:url(images/transp.png);
+    border:none;
+}
+
+#mainwindow-menubar:item
+{
+    color: black;
+    spacing: 5px;
+    padding: 2px 6px;
+    background: transparent;
+}
+
+#mainwindow-menubar::item:pressed
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #a5a5a5, stop:1 #9a9a9a);
+    border: 1px solid #373737;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: none;
+}
+
+#mainwindow-statusbar
+{
+    background-color: #a7a7a7;
+}
+
+#statusbar-ip-label
+{
+    padding-right: 5px;
+}
+
+/*NavigationBar*/
+#navigationbar
+{
+    qproperty-layoutMargin: 4;
+    qproperty-layoutSpacing: 3;
+}
+
+#navigationbar QSplitter::handle
+{
+    height: 8px;
+    image: url(images/splitter.png);
+}
+
+#navigation-button-back
+{
+    qproperty-multiIcon: url(images/navigation-back.png);
+}
+
+#navigation-button-next
+{
+    qproperty-multiIcon: url(images/navigation-forward.png);
+}
+
+#navigation-button-stop
+{
+    qproperty-multiIcon: url(images/navigation-stop.png);
+}
+
+#navigation-button-reload
+{
+    qproperty-multiIcon: url(images/navigation-reload.png);
+}
+
+#navigation-button-home
+{
+    qproperty-multiIcon: url(images/navigation-home.png);
+}
+
+#navigation-button-addtab
+{
+    qproperty-multiIcon: url(images/navigation-addtab.png);
+}
+
+#navigation-button-tools
+{
+    qproperty-icon: url(images/navigation-tools.png);
+}
+
+#navigation-button-exitfullscreen
+{
+    qproperty-icon: url(images/navigation-exit-fullscreen.png);
+}
+
+#navigation-button-supermenu
+{
+    qproperty-multiIcon: url(images/navigation-supermenu.png);
+}
+
+#navigation-toolbutton-badge
+{
+    background: palette(dark);
+    color: palette(bright-text);
+    margin: 0px 1px;
+}
+
+ToolButton[button-id="button-downloads"]
+{
+    qproperty-icon: url(images/navigation-downloads.png);
+}
+
+ToolButton[toolbar-look="true"]
+{
+    qproperty-iconSize: 16px 16px;
+    qproperty-fixedsize: 36px 23px;
+    border-image: url(images/toolbutton.png);
+}
+
+ToolButton[toolbar-look="true"]:hover
+{
+    border-image: url(images/toolbutton-h.png);
+}
+
+ToolButton[toolbar-look="true"]:pressed
+{
+    border-image: url(images/toolbutton-a.png);
+}
+
+/*TabWidget*/
+#tabbar
+{
+    qproperty-tabPadding: -1;
+    qproperty-baseColor: 0;
+}
+
+#tabbar-button-right
+{
+    qproperty-icon: url(images/tab-right-arrow.png);
+    qproperty-fixedsize: 15px 25px;
+}
+
+#tabbar-button-left
+{
+    qproperty-icon: url(images/tab-left-arrow.png);
+    qproperty-fixedsize: 15px 25px;
+}
+
+#tabwidget-button-opentabs
+{
+    qproperty-multiIcon: url(images/tabs-list-button.png);
+}
+
+#tabwidget-button-closedtabs
+{
+    qproperty-multiIcon: url(images/tabs-closed-button.png);
+}
+
+#tabwidget-button-addtab
+{
+    qproperty-multiIcon: url(images/tabbar-addtab.png);
+}
+
+/*IconProvider*/
+IconProvider
+{
+    qproperty-bookmarkIcon: url(images/star-a.png);
+}
+
+/*LocationBar*/
+#locationbar
+{
+    background: transparent;
+    border-image: url(images/lineedit-bg.png);
+    border-width: 4px;
+    color:black;
+    padding-right: -5px;
+    padding-left: -5px;
+    padding-top: -2px;
+    padding-bottom: -2px;
+    qproperty-fixedheight: 23;
+    qproperty-leftMargin: 40;
+}
+
+#locationbar-bookmarkicon
+{
+    margin-left: 2px;
+    qproperty-pixmap: url(images/star.png);
+}
+
+#locationbar-bookmarkicon[bookmarked="true"]
+{
+    qproperty-pixmap: url(images/star-a.png);
+}
+
+#locationbar-siteicon
+{
+    border-image: url(images/siteicon-bg.png);
+    qproperty-fixedsize:42px 23px;
+    padding-left: -3px;
+}
+
+#locationbar-siteicon[secured="true"]
+{
+    border-image: url(images/siteicon-secure-bg.png);
+}
+
+#locationbar-goicon
+{
+    margin-top: 2px;
+    qproperty-pixmap: url(images/gotoaddress.png);
+}
+
+#locationbar-down-icon
+{
+    margin-left: 3px;
+    margin-right: 2px;
+    qproperty-pixmap: url(images/navigation-dropdown.png);
+}
+
+#locationbar-autofillicon
+{
+    margin-bottom: 1px;
+    qproperty-pixmap: url(images/key.png);
+}
+
+/*BookmarksToolbar*/
+#bookmarksbar QToolButton
+{
+    border-image: url(images/transp.png);
+    border-width: 0px;
+    height: 15px;
+}
+
+/*SideBar*/
+#sidebar
+{
+    background: transparent;
+}
+
+#sidebar-splitter::handle
+{
+    background-color:transparent;
+}
+
+/*WebSearchBar*/
+#websearchbar
+{
+    background: transparent;
+    border-image: url(images/lineedit-bg.png);
+    border-width: 4px;
+    padding-right: -4px;
+    padding-top: -2px;
+    padding-bottom: -2px;
+    color:black;
+    qproperty-fixedheight: 23;
+    qproperty-leftMargin: 35;
+}
+
+#websearchbar-searchbutton
+{
+    margin-bottom: -1px;
+    qproperty-pixmap: url(images/search-icon.png);
+}
+
+#websearchbar-searchprovider-combobox
+{
+    border-image: url(images/searchbar-provider-bg.png);
+    padding-left:-11px;
+    qproperty-fixedsize: 42px 23px;
+}
+
+/*SearchToolbar*/
+SearchToolBar #lineEdit[notfound="true"]
+{
+    background:#ff6666;
+}
+
+/*AboutDialog*/
+AboutDialog #label
+{
+    background: palette(window);
+}
+
+AboutDialog #textBrowser
+{
+    background: palette(window);
+}
+
+/*DesktopNotification*/
+DesktopNotification
+{
+    background: #31363b;
+}
+
+DesktopNotification #frame
+{
+    border: 1px solid #696d71;
+    padding: 10px;
+}
+
+DesktopNotification #heading
+{
+    font: bold;
+    color: #c2c7c7;
+}
+
+DesktopNotification #text
+{
+    color: #e7ebeb;
+}
+
+/*BrowsingLibrary*/
+BrowsingLibrary #tabs
+{
+    qproperty-bgPixmap: url(images/library-bg.png);
+}
+
+BrowsingLibrary #frame
+{
+    background: url(images/library-bg.png);
+}
+
+/*JavaScript Dialogs*/
+#jsFrame
+{
+    background: url(images/semi-transp.png);
+}
+
+QFrame[js-frame="true"]
+{
+    border: 1px solid  black;
+    border-bottom: 0px;
+    background-color: white;
+}
+
+QFrame[js-frame2="true"]
+{
+    border: 1px solid  black;
+    border-top: 0px;
+    background-color: #f3f3f3;
+}
+
+/*WebView*/
+WebView
+{
+    background: white;
+}

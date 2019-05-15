@@ -1,0 +1,27 @@
+#navigation-button-next
+{
+    qproperty-themeIcon: "go-previous";
+}
+
+#navigation-button-back
+{
+    qproperty-themeIcon: "go-next";
+}
+
+#navigation-button-tools
+{
+    qproperty-themeIcon: "arrow-left-double";
+    qproperty-fallbackIcon: url(images/tools-rtl.svg);
+}
+
+#tabbar-button-right
+{
+    qproperty-themeIcon: "arrow-left";
+    qproperty-fallbackIcon: url(images/tab-left-arrow.svg);
+}
+
+#tabbar-button-left
+{
+    qproperty-themeIcon: "arrow-right";
+    qproperty-fallbackIcon: url(images/tab-right-arrow.svg);
+}

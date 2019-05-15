@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SBI_ProxyWidget</class>
+ <widget class="QWidget" name="SBI_ProxyWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>558</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QComboBox" name="proxyType">
+       <item>
+        <property name="text">
+         <string>HTTP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SOCKS5</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="proxyServer"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_37">
+       <property name="text">
+        <string>Port:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="proxyPort">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_24">
+     <item>
+      <widget class="QLabel" name="label_56">
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="proxyUsername"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_57">
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="proxyPassword"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_28">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QRadioButton" name="systemProxy">
+     <property name="text">
+      <string>S&amp;ystem proxy configuration</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QRadioButton" name="manualProxy">
+     <property name="text">
+      <string>&amp;Manual configuration</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1">
+    <widget class="QFrame" name="httpsCredentialsLayout_2">
+     <layout class="QHBoxLayout" name="httpsCredentialsLayout"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabManagerWidget</class>
+ <widget class="QWidget" name="TabManagerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>266</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tab Manager</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="LineEdit" name="filterBar"/>
+   </item>
+   <item>
+    <widget class="TabTreeWidget" name="treeWidget">
+     <attribute name="headerVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>lineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>TabTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>tabmanagerwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>treeWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="tabmanagerplugin.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BookmarksWidget</class>
+ <widget class="QWidget" name="BookmarksWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>167</width>
+    <height>123</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QPushButton" name="bookmarksButton">
+     <property name="text">
+      <string>Add to Bookmarks</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QPushButton" name="speeddialButton">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>Add to Speed Dial</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/icons/theme/speeddial.png</normaloff>:/icons/theme/speeddial.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="BookmarksFoldersButton" name="folderButton"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BookmarksFoldersButton</class>
+   <extends>QPushButton</extends>
+   <header>bookmarkstools.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
