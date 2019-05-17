@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef NAVIGATIONCONTAINER_H
-#define NAVIGATIONCONTAINER_H
+#pragma once
 
 #include <QWidget>
 
@@ -43,4 +42,3 @@ private:
     TabBar* m_tabBar;
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef CLOSEDTABSMANAGER_H
-#define CLOSEDTABSMANAGER_H
+#pragma once
 
 #include <QVector>
 
@@ -57,4 +56,3 @@ private:
 // Hint to Qt to use std::realloc on item moving
 Q_DECLARE_TYPEINFO(ClosedTabsManager::Tab, Q_MOVABLE_TYPE);
 
-#endif

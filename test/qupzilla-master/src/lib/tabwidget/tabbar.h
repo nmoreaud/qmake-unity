@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABBAR_H
-#define TABBAR_H
+#pragma once
 
 #include <QPointer>
 
@@ -92,4 +91,3 @@ private:
     QPointer<WebTab> m_lastTab;
 };
 
-#endif

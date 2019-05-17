@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXGLOBAL_H
-#define XLSXGLOBAL_H
+#pragma once
 #include <QtGlobal>
 
 #define QT_BEGIN_NAMESPACE_XLSX namespace QXlsx {
@@ -46,4 +45,3 @@
 #  define XLSX_AUTOTEST_EXPORT
 #endif
 
-#endif // XLSXGLOBAL_H

@@ -1,5 +1,4 @@
-#ifndef ECKEYBOARDMOVER8DIRECTIONAL_H
-#define ECKEYBOARDMOVER8DIRECTIONAL_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -43,4 +42,3 @@ private:
 };
 
 }
-#endif

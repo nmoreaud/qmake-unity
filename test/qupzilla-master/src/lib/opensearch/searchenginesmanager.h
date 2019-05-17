@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SEARCHENGINESMANAGER_H
-#define SEARCHENGINESMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QIcon>
@@ -125,4 +124,3 @@ Q_DECLARE_TYPEINFO(SearchEngine, Q_MOVABLE_TYPE);
 
 Q_DECLARE_METATYPE(SearchEngine)
 
-#endif

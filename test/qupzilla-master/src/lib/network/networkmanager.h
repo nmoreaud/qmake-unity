@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef NETWORKMANAGER_H
-#define NETWORKMANAGER_H
+#pragma once
 
 #include <QNetworkAccessManager>
 #include <QWebEngineCertificateError>
@@ -57,4 +56,3 @@ private:
     QHash<QString, QWebEngineCertificateError::Error> m_ignoredSslErrors;
 };
 
-#endif

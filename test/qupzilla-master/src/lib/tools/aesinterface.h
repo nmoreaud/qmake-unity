@@ -18,8 +18,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AESINTERFACE_H
-#define AESINTERFACE_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -56,4 +55,3 @@ private:
     bool m_ok;
     QByteArray m_iVector;
 };
-#endif

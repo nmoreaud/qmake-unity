@@ -1,5 +1,4 @@
-#ifndef POINTTARGETABILITY_H
-#define POINTTARGETABILITY_H
+#pragma once
 
 #include "Ability.h"
 
@@ -18,4 +17,3 @@ protected:
 };
 
 }
-#endif

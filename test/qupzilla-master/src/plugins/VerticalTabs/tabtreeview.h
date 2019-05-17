@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABTREEVIEW_H
-#define TABTREEVIEW_H
+#pragma once
 
 #include <QTreeView>
 
@@ -79,4 +78,3 @@ private:
     QString m_expandedSessionKey;
     bool m_initializing = false;
 };
-#endif

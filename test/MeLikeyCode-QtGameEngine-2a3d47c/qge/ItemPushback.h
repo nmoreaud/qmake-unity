@@ -1,5 +1,4 @@
-#ifndef ITEMPUSHBACK_H
-#define ITEMPUSHBACK_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -18,4 +17,3 @@ public:
 };
 
 }
-#endif

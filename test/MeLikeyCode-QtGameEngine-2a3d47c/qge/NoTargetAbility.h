@@ -1,5 +1,4 @@
-#ifndef NOTARGETABILITY_H
-#define NOTARGETABILITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -22,4 +21,3 @@ protected:
 };
 
 }
-#endif

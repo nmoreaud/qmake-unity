@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ADBLOCKSEARCHTREE_H
-#define ADBLOCKSEARCHTREE_H
+#pragma once
 
 #include <QChar>
 #include <QHash>
@@ -55,4 +54,3 @@ private:
     Node* m_root;
 };
 
-#endif

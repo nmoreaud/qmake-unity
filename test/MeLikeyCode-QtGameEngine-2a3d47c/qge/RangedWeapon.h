@@ -1,5 +1,4 @@
-#ifndef RANGEDWEAPON_H
-#define RANGEDWEAPON_H
+#pragma once
 
 #include "Weapon.h"
 
@@ -20,4 +19,3 @@ private:
 };
 
 }
-#endif

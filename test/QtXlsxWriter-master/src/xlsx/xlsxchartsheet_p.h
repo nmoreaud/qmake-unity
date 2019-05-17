@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXCHARTSHEET_P_H
-#define XLSXCHARTSHEET_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -53,4 +52,3 @@ public:
 };
 
 }
-#endif // XLSXCHARTSHEET_P_H

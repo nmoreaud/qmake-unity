@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef XLSXCONDITIONALFORMATTING_P_H
-#define XLSXCONDITIONALFORMATTING_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -128,4 +127,3 @@ public:
 QT_END_NAMESPACE_XLSX
 
 Q_DECLARE_METATYPE(QXlsx::XlsxCfVoData)
-#endif // XLSXCONDITIONALFORMATTING_P_H

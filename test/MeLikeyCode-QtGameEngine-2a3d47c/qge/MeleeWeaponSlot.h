@@ -1,5 +1,4 @@
-#ifndef MELEEWEAPONSLOT_H
-#define MELEEWEAPONSLOT_H
+#pragma once
 
 #include "Slot.h"
 
@@ -16,4 +15,3 @@ public:
 };
 
 }
-#endif

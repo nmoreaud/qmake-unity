@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef REMOVEITEMFOCUSDELEGATE_H
-#define REMOVEITEMFOCUSDELEGATE_H
+#pragma once
 
 #include <QStyledItemDelegate>
 
@@ -29,4 +28,3 @@ private:
     void paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const override;
 };
 
-#endif

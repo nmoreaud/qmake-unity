@@ -1,5 +1,4 @@
-#ifndef SHARDSOFFIREABILITY_H
-#define SHARDSOFFIREABILITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -22,4 +21,3 @@ private:
 };
 
 }
-#endif

@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef XLSXOOXMLFILE_P_H
-#define XLSXOOXMLFILE_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -61,4 +60,3 @@ public:
 
 QT_END_NAMESPACE_XLSX
 
-#endif // XLSXOOXMLFILE_P_H

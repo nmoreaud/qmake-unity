@@ -1,5 +1,4 @@
-#ifndef ITEMCELL_H
-#define ITEMCELL_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -54,4 +53,3 @@ private:
 };
 
 }
-#endif

@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef SCRIPTS_H
-#define SCRIPTS_H
+#pragma once
 
 #include <QString>
 
@@ -41,4 +40,3 @@ public:
     static QString getFormData(const QPointF &pos);
 };
 
-#endif

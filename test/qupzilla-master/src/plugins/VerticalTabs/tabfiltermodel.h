@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABFILTERMODEL_H
-#define TABFILTERMODEL_H
+#pragma once
 
 #include <QSortFilterProxyModel>
 
@@ -46,4 +45,3 @@ private:
     bool m_filterPinnedTabs = false;
     bool m_rejectDropOnLastIndex = false;
 };
-#endif

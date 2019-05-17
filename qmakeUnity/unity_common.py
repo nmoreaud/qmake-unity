@@ -23,7 +23,7 @@ def utf8_file_read(file):
 
 def file_remove(filePath):
     if SAFE_MODE:
-        print_debug("SAFE MODE : simulate os.remove(" + filePath + ")", True)
+        print_debug(f'SAFE MODE - simulate delete file "{filePath}" ({os.path.abspath(filePath)})', True)
     else:
         os.remove(filePath)
 

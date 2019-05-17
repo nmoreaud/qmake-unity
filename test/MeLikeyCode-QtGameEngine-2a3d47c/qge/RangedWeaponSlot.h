@@ -1,5 +1,4 @@
-#ifndef RANGEDWEAPONSLOT_H
-#define RANGEDWEAPONSLOT_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -17,4 +16,3 @@ public:
 };
 
 }
-#endif

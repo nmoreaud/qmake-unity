@@ -1,5 +1,4 @@
-#ifndef WEAPONSLOT_H
-#define WEAPONSLOT_H
+#pragma once
 
 #include "Slot.h"
 
@@ -15,4 +14,3 @@ public:
 };
 
 }
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TESTPLUGIN_H
-#define TESTPLUGIN_H
+#pragma once
 
 // Include plugininterface.h for your version of QupZilla
 #include "plugininterface.h"
@@ -60,4 +59,3 @@ private:
     TestPlugin_Sidebar *m_sideBar = nullptr;
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GNOMEKEYRINGPLUGIN_H
-#define GNOMEKEYRINGPLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -43,4 +42,3 @@ private:
 
 };
 
-#endif

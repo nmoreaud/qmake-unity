@@ -1,5 +1,4 @@
-#ifndef RANDOMIMAGEENTITY_H
-#define RANDOMIMAGEENTITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -21,4 +20,3 @@ public:
 };
 
 }
-#endif

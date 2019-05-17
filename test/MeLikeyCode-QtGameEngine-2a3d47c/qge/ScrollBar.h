@@ -1,5 +1,4 @@
-#ifndef SCROLLBAR_H
-#define SCROLLBAR_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -86,4 +85,3 @@ private:
 };
 
 }
-#endif

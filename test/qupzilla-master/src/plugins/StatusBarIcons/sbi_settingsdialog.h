@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SBI_SETTINGSDIALOG_H
-#define SBI_SETTINGSDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -44,4 +43,3 @@ private:
     SBI_IconsManager* m_manager;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef DESTREACHEDBEHAVIOR_H
-#define DESTREACHEDBEHAVIOR_H
+#pragma once
 
 namespace qge{
 
@@ -23,4 +22,3 @@ public:
 };
 
 }
-#endif

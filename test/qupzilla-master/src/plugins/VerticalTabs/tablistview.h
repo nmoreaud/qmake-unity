@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABLISTVIEW_H
-#define TABLISTVIEW_H
+#pragma once
 
 #include <QListView>
 
@@ -62,4 +61,3 @@ private:
     QModelIndex m_pressedIndex;
     bool m_hideWhenEmpty = false;
 };
-#endif

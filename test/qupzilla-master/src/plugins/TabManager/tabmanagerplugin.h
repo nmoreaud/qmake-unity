@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABMANAGERPLUGIN_H
-#define TABMANAGERPLUGIN_H
+#pragma once
 
 
 #include "plugininterface.h"
@@ -82,4 +81,3 @@ private:
     bool m_asTabBarReplacement;
 };
 
-#endif

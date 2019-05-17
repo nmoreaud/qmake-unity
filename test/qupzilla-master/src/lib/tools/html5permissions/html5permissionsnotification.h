@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HTML5PERMISSIONSNOTIFICATION_H
-#define HTML5PERMISSIONSNOTIFICATION_H
+#pragma once
 
 #include <QString>
 #include <QPointer>
@@ -49,4 +48,3 @@ private:
     QWebEnginePage::Feature m_feature;
 };
 
-#endif

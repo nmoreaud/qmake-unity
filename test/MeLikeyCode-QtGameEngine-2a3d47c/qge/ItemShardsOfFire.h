@@ -1,5 +1,4 @@
-#ifndef ITEMSHARDSOFFIRE_H
-#define ITEMSHARDSOFFIRE_H
+#pragma once
 
 #include "NoTargetItem.h"
 
@@ -15,4 +14,3 @@ public:
 };
 
 }
-#endif

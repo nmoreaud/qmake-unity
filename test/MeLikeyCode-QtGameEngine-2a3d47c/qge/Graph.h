@@ -1,5 +1,4 @@
-#ifndef GRAPH_H
-#define GRAPH_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -79,4 +78,3 @@ private:
 };
 
 }
-#endif

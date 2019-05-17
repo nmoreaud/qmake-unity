@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PASSWORDBACKEND_H
-#define PASSWORDBACKEND_H
+#pragma once
 
 #include "passwordmanager.h"
 #include "qzcommon.h"
@@ -52,4 +51,3 @@ private:
     bool m_active;
 };
 
-#endif

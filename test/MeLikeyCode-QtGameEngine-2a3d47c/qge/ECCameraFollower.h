@@ -1,5 +1,4 @@
-#ifndef ECCAMERAFOLLOWER_H
-#define ECCAMERAFOLLOWER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -30,4 +29,3 @@ public slots:
 };
 
 }
-#endif

@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef ADBLOCKURLINTERCEPTOR_H
-#define ADBLOCKURLINTERCEPTOR_H
+#pragma once
 
 #include "qzcommon.h"
 #include "urlinterceptor.h"
@@ -41,4 +40,3 @@ private:
     AdBlockManager *m_manager;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef SOUND_H
-#define SOUND_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -47,4 +46,3 @@ private:
 };
 
 }
-#endif

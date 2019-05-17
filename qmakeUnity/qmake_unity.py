@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import glob
 import os
 import re
@@ -61,7 +62,7 @@ class Group:
         fileContent += "\n".join(fileIncludes)
         fileContent += "\n"
 
-        # on n'écrit que si le fichier a été modifié
+        # we write only if the content has been modified
         fileOldContent = ''
         try:
             with open(self.file, encoding="utf-8") as file:
@@ -147,7 +148,7 @@ class Group:
             if j % desiredGroupsSize == 0:
                 g = Group()
                 g.type = type
-                # crée une copie de la liste
+                # creates a copy of the list
                 g.sources = list(sources)
                 groupList.append(g)
                 sources.clear()
@@ -254,6 +255,7 @@ class Group:
             groupFiles = [group.file for group in groupList]
             print("SOURCES += " + " ".join(groupFiles), file=file)
 
+            # To remove a cpp file from qmake, you must type the exact same path as qmake passed it to this script through unitySources.txt
             if type == 'cpp':
                 sourceFiles = [source.pathFromProject for group in groupList for source in group.sources]
                 print("SOURCES -= " + " ".join(sourceFiles), file=file)
@@ -343,9 +345,9 @@ def removeIncompatibleSourcesFromList(cppList):
 
 
 def argumentsCheck(mode, unityDirectory, strategy, cppList):
-    assert mode in ["update","clear","removeOldSources","qmakeListRemovedSources","qmakeListAddedSources"], "Incorrect mode : " + mode
+    assert mode in ["update","clear"], "Incorrect mode : " + mode
     if (mode != "clear"):
-        assert strategy in ["incremental","per-processor","single"], "Stratégie incorrecte : " + strategy
+        assert strategy in ["incremental","per-processor","single-compilation-unit"], "Unknown strategy : " + strategy
     assert "unity" in unityDirectory, "The folder " + unityDirectory + " must contain the keyword 'unity'"
     assert os.path.exists(unityDirectory), "The folder " + unityDirectory + " doesn't exists. This error is probably the consequence of another error"
     cd = os.getcwd()
@@ -354,27 +356,32 @@ def argumentsCheck(mode, unityDirectory, strategy, cppList):
     for cpp in cppList:
         assert cpp.pathFromProject.endswith(".cpp") or cpp.pathFromProject.endswith('.c'), "Error : this file is not a CPP : " + cpp
 
+def buildArgsParser():
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--mode', type=str, choices=('update', 'clear'))
+    parser.add_argument('--strategy', default='incremental', choices=('incremental', 'per-processor', 'single-compilation-unit'),
+                        help='Strategy for grouping files together')
+    parser.add_argument('--tmpDir', type=str)
+    parser.add_argument('--mocMode', type=str, choices=('MOC_LVL_0', 'MOC_LVL_1', 'MOC_LVL_2'), default='MOC_LVL_1')
+    parser.add_argument('--sourceListPath', type=str)
 
+    return parser
+    
 def main():
-    if len(sys.argv) <= 3:
-        print("""Usage : python qmake-unity.py mode strategy path_to_unity.pri [source1.cpp, subdir/source2.cpp ...]
-Mode : update/clear/removeOldSources/QMAKE_LIST_REMOVED/QMAKE_LIST_ADDED
-Strategy: incremental(little groups)/per-processor(one group per processor)/unity(one group)
-""")
-        return
-
     try:
-        #print_debug("current dir : " + os.getcwd())
-        mode = sys.argv[1]
-        strategy = sys.argv[2]
-        unityDirectory = os.path.normpath(sys.argv[3])
+        # Must be executed from the project's source directory (which contains the .pro file)
+        # print_dev("current dir : " + os.getcwd())
+        cliArgs = buildArgsParser().parse_args()
+        
+        mode = cliArgs.mode
+        strategy = cliArgs.strategy
+        unityDirectory = os.path.normpath(cliArgs.tmpDir)
         unityPriFile = os.path.normpath(unityDirectory + "/unity.pri")
-        #print_debug(unityDirectory)
-
+        mocMode = cliArgs.mocMode
+        inputProjectCppListFile = cliArgs.sourceListPath
 
         projectCppListPath = []
-        if len(sys.argv) > 4:
-            inputProjectCppListFile = sys.argv[4]
+        if inputProjectCppListFile is not None:
             assert os.path.exists(inputProjectCppListFile), "The sources file list doesn't exists : " + inputProjectCppListFile + ". This error is probably the consequence of another error."
 
             with open(inputProjectCppListFile) as file:
@@ -416,9 +423,16 @@ Strategy: incremental(little groups)/per-processor(one group per processor)/unit
             cppGroupSize = len(cppList)
 
         generateUnityBuildFiles(unityPriFile, unityDirectory, mode, 'cpp', cppGroupList, cppList, cppGroupSize, "w+")
-        print_debug('todo : decomment only for MOC_LVL_1')
-        print_debug('todo : comment only for MOC_LVL_0 and MOC_LVL_2')
-        generateUnityBuildFiles(unityPriFile, unityDirectory, mode, 'moc', mocGroupList, mocList, MOC_GROUPSIZE, "a")
+        
+        if mocMode == 'MOC_LVL_1':
+            # LVL_0 = no moc optimization
+            # LVL_1 = moc files, the group them for CL step
+            # LVL_2 = group moc calls before the CL step ; see unity_moc_headers
+            generateUnityBuildFiles(unityPriFile, unityDirectory, mode, 'moc', mocGroupList, mocList, MOC_GROUPSIZE, "a")
+        else:
+            for group in mocGroupList:
+                group.removeFromDisk()
+
 
     except InlineException as err:
         sys.stderr.write(err.message + "\n")

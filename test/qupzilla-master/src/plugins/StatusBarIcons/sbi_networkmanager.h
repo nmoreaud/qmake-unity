@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SBI_NETWORKMANAGER_H
-#define SBI_NETWORKMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QHash>
@@ -56,4 +55,3 @@ private:
 
 #define SBINetManager SBI_NetworkManager::instance()
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef PROJECTILE_H
-#define PROJECTILE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -102,4 +101,3 @@ private:
 };
 
 }
-#endif

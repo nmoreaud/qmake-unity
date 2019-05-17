@@ -1,5 +1,4 @@
-#ifndef TREE_H
-#define TREE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -44,4 +43,3 @@ private:
 };
 
 }
-#endif

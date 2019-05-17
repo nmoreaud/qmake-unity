@@ -1,5 +1,4 @@
-#ifndef COLLISIONBEHAVIOR_H
-#define COLLISIONBEHAVIOR_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -30,4 +29,3 @@ public:
 };
 
 }
-#endif

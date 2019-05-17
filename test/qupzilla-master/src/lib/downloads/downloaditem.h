@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef DOWNLOADITEM_H
-#define DOWNLOADITEM_H
+#pragma once
 
 #include <QWidget>
 #include <QFile>
@@ -94,4 +93,3 @@ private:
     qint64 m_total;
 };
 
-#endif

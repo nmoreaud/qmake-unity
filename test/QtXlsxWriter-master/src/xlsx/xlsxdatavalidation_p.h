@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef XLSXDATAVALIDATION_P_H
-#define XLSXDATAVALIDATION_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -66,4 +65,3 @@ public:
 };
 
 QT_END_NAMESPACE_XLSX
-#endif // XLSXDATAVALIDATION_P_H

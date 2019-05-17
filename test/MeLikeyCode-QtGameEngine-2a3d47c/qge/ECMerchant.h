@@ -1,5 +1,4 @@
-#ifndef ECMERCHANT_H
-#define ECMERCHANT_H
+#pragma once
 
 #include "EntityController.h"
 
@@ -32,4 +31,3 @@ private:
 };
 
 }
-#endif

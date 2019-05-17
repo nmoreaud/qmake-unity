@@ -1,5 +1,4 @@
-#ifndef ITEMHEALTHPOTION_H
-#define ITEMHEALTHPOTION_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -19,4 +18,3 @@ private:
 };
 
 }
-#endif

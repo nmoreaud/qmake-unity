@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef URLINTERCEPTOR_H
-#define URLINTERCEPTOR_H
+#pragma once
 
 #include <QObject>
 #include <QWebEngineUrlRequestInfo>
@@ -31,4 +30,3 @@ public:
     virtual void interceptRequest(QWebEngineUrlRequestInfo &info) = 0;
 };
 
-#endif

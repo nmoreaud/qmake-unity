@@ -1,5 +1,4 @@
-#ifndef RANDOMGENERATOR_H
-#define RANDOMGENERATOR_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -25,4 +24,3 @@ public:
 };
 
 }
-#endif

@@ -1,5 +1,4 @@
-#ifndef MAP_H
-#define MAP_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -137,4 +136,3 @@ private:
 };
 
 }
-#endif

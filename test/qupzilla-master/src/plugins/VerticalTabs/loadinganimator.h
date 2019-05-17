@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef LOADINGANIMATOR_H
-#define LOADINGANIMATOR_H
+#pragma once
 
 #include <QHash>
 #include <QObject>
@@ -44,4 +43,3 @@ private:
 
     friend class LoadingAnimation;
 };
-#endif

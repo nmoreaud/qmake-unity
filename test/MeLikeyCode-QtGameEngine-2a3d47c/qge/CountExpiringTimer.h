@@ -1,5 +1,4 @@
-#ifndef COUNTEXPIRINGTIMER_H
-#define COUNTEXPIRINGTIMER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -34,4 +33,3 @@ private:
 };
 
 }
-#endif

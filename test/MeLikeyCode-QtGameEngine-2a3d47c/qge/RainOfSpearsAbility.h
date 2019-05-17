@@ -1,5 +1,4 @@
-#ifndef RAINOFSPEARSABILITY_H
-#define RAINOFSPEARSABILITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -29,4 +28,3 @@ private:
 };
 
 }
-#endif

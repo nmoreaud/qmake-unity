@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SBI_IMAGESICON_H
-#define SBI_IMAGESICON_H
+#pragma once
 
 #include <QIcon>
 
@@ -41,4 +40,3 @@ private:
     bool m_loadingImages;
 };
 
-#endif

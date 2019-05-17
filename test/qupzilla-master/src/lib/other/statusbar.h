@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef STATUSBAR_H
-#define STATUSBAR_H
+#pragma once
 
 #include <QObject>
 #include <QStatusBar>
@@ -68,4 +67,3 @@ private:
 
     QHash<QString, WidgetData> m_widgets;
 };
-#endif

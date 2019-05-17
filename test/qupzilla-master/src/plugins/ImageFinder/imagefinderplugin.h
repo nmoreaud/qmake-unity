@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef IMAGEFINDERPLUGIN_H
-#define IMAGEFINDERPLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -48,4 +47,3 @@ private:
     QPointer<ImageFinderSettings> m_settings;
 };
 
-#endif

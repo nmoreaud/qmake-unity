@@ -1,5 +1,4 @@
-#ifndef PATHGRID_H
-#define PATHGRID_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -58,4 +57,3 @@ private:
 };
 
 }
-#endif

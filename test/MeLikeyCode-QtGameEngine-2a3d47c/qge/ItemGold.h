@@ -1,5 +1,4 @@
-#ifndef ITEMGOLD_H
-#define ITEMGOLD_H
+#pragma once
 
 #include "NoTargetItem.h"
 
@@ -17,4 +16,3 @@ public:
 };
 
 }
-#endif

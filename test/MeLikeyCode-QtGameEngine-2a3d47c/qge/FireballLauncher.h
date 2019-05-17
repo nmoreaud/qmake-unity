@@ -1,5 +1,4 @@
-#ifndef FIREBALLLAUNCHER_H
-#define FIREBALLLAUNCHER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -23,4 +22,3 @@ private:
 };
 
 }
-#endif

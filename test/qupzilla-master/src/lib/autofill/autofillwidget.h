@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AUTOFILLWIDGET_H
-#define AUTOFILLWIDGET_H
+#pragma once
 
 #include <QWidget>
 #include <QList>
@@ -47,4 +46,3 @@ private:
     WebView* m_view;
 };
 
-#endif

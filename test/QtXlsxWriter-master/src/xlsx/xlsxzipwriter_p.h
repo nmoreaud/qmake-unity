@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_ZIPWRITER_H
-#define QXLSX_ZIPWRITER_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -60,4 +59,3 @@ private:
 
 } // namespace QXlsx
 
-#endif // QXLSX_ZIPWRITER_H

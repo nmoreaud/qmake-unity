@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_DOWNLOADER_H
-#define GM_DOWNLOADER_H
+#pragma once
 
 #include <QObject>
 #include <QList>
@@ -55,4 +54,3 @@ private:
     QString m_fileName;
 };
 
-#endif

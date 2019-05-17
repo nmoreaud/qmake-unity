@@ -43,8 +43,7 @@
  * SUCH DAMAGE.
  */
 
-#ifndef ADBLOCKSUBSCRIPTION_H
-#define ADBLOCKSUBSCRIPTION_H
+#pragma once
 
 #include <QVector>
 #include <QUrl>
@@ -133,4 +132,3 @@ public:
 };
 
 
-#endif

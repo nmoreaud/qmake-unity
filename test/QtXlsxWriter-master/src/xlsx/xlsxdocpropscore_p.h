@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXDOCPROPSCORE_H
-#define XLSXDOCPROPSCORE_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -62,4 +61,3 @@ private:
 };
 
 }
-#endif // XLSXDOCPROPSCORE_H

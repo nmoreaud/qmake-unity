@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AKN_HANDLER_H
-#define AKN_HANDLER_H
+#pragma once
 
 #include <QObject>
 #include <QTime>
@@ -69,4 +68,3 @@ private:
     QString m_settingsFile;
 };
 
-#endif

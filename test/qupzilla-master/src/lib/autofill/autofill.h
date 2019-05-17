@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AUTOFILL_H
-#define AUTOFILL_H
+#pragma once
 
 #include <QObject>
 #include <QPointer>
@@ -86,4 +85,3 @@ private:
 
 };
 
-#endif

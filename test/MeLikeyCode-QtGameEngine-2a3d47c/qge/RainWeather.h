@@ -1,5 +1,4 @@
-#ifndef RAINWEATHER_H
-#define RAINWEATHER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -78,4 +77,3 @@ private:
 };
 
 }
-#endif

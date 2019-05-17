@@ -502,9 +502,7 @@ message(===========================================)
 message( Using following defines:)
 message(  $$DEFINES)
 
-
-UNITY_TMP_DIR=$$clean_path($$PWD/../build/unity/)
 UNITY_BUILD = 1
-UNITY_MOC_MODE = MOC_LVL_1
+UNITY_MOC_MODE = MOC_LVL_2
 include(../../../../qmakeUnity/qmake_unity.pri)
 

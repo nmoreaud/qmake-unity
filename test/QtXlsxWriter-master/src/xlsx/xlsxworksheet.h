@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXWORKSHEET_H
-#define XLSXWORKSHEET_H
+#pragma once
 
 #include "xlsxabstractsheet.h"
 #include "xlsxcell.h"
@@ -155,4 +154,3 @@ private:
 };
 
 QT_END_NAMESPACE_XLSX
-#endif // XLSXWORKSHEET_H

@@ -1,5 +1,4 @@
-#ifndef SHOPGUIBEHAVIOR_H
-#define SHOPGUIBEHAVIOR_H
+#pragma once
 
 namespace qge{
 
@@ -18,4 +17,3 @@ public:
 };
 
 }
-#endif

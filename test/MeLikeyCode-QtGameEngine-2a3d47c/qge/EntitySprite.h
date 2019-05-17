@@ -1,5 +1,4 @@
-#ifndef ENTITYSPRITE_H
-#define ENTITYSPRITE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -129,4 +128,3 @@ protected:
 };
 
 }
-#endif

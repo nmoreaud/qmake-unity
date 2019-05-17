@@ -1,5 +1,4 @@
-#ifndef TABMANAGERSETTINGS_H
-#define TABMANAGERSETTINGS_H
+#pragma once
 
 #include <QDialog>
 
@@ -24,4 +23,3 @@ private:
     TabManagerPlugin* m_plugin;
 };
 
-#endif

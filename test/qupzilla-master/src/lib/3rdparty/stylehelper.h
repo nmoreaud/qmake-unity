@@ -27,8 +27,7 @@
 **
 **************************************************************************/
 
-#ifndef STYLEHELPER_H
-#define STYLEHELPER_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -86,4 +85,3 @@ private:
 } // namespace Utils
 
 using Utils::StyleHelper;
-#endif

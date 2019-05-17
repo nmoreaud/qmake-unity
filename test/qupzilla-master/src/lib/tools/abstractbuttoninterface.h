@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ABSTRACTBUTTONINTERFACE_H
-#define ABSTRACTBUTTONINTERFACE_H
+#pragma once
 
 #include <QIcon>
 #include <QObject>
@@ -86,4 +85,3 @@ private:
     QString m_badgeText;
     WebView *m_view = nullptr;
 };
-#endif

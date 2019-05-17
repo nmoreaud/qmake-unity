@@ -26,8 +26,7 @@
 * SUCH DAMAGE.
 */
 
-#ifndef SQUEEZELABELV1_H
-#define SQUEEZELABELV1_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -51,4 +50,3 @@ private:
     QString m_SqueezedTextCache;
 };
 
-#endif

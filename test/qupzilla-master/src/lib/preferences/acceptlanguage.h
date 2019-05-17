@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ACCEPTLANGUAGE_H
-#define ACCEPTLANGUAGE_H
+#pragma once
 
 #include <QDialog>
 #include <QLocale>
@@ -54,4 +53,3 @@ private:
     Ui::AcceptLanguage* ui;
 };
 
-#endif

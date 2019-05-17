@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SBI_ICON_H
-#define SBI_ICON_H
+#pragma once
 
 #include <QWebEngineSettings>
 
@@ -43,4 +42,3 @@ protected:
     QString m_settingsFile;
 };
 
-#endif

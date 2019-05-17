@@ -1,5 +1,4 @@
-#ifndef CITEMDROPPER_H
-#define CITEMDROPPER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -25,4 +24,3 @@ private:
 };
 
 }
-#endif

@@ -1,5 +1,4 @@
-#ifndef TOPDOWNSPRITE_H
-#define TOPDOWNSPRITE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -62,4 +61,3 @@ private:
 };
 
 }
-#endif

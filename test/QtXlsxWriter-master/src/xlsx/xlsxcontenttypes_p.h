@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXCONTENTTYPES_H
-#define XLSXCONTENTTYPES_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -85,4 +84,3 @@ private:
 };
 
 }
-#endif // XLSXCONTENTTYPES_H

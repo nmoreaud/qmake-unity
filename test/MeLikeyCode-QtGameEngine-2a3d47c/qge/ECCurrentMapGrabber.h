@@ -1,5 +1,4 @@
-#ifndef ECCURRENTMAPGRABBER_H
-#define ECCURRENTMAPGRABBER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -31,4 +30,3 @@ public slots:
 };
 
 }
-#endif

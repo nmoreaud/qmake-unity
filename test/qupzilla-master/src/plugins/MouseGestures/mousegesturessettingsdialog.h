@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef MOUSEGESTURESSETTINGSDIALOG_H
-#define MOUSEGESTURESSETTINGSDIALOG_H
+#pragma once
 
 #include <QDialog>
 #include <QTextBrowser>
@@ -45,4 +44,3 @@ private:
     MouseGestures* m_gestures;
 };
 
-#endif

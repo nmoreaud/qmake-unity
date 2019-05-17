@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXABSTRACTSHEET_H
-#define XLSXABSTRACTSHEET_H
+#pragma once
 
 #include "xlsxabstractooxmlfile.h"
 #include <QStringList>
@@ -73,4 +72,3 @@ protected:
 };
 
 QT_END_NAMESPACE_XLSX
-#endif // XLSXABSTRACTSHEET_H

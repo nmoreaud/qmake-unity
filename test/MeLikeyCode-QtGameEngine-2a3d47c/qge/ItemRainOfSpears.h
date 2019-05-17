@@ -1,5 +1,4 @@
-#ifndef ITEMRAINOFSPEARS_H
-#define ITEMRAINOFSPEARS_H
+#pragma once
 
 #include "NoTargetItem.h"
 
@@ -17,4 +16,3 @@ public:
 };
 
 }
-#endif

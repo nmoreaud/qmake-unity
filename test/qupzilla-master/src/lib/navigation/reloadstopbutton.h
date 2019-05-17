@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef RELOADSTOPBUTTON_H
-#define RELOADSTOPBUTTON_H
+#pragma once
 
 #include "qzcommon.h"
 #include "toolbutton.h"
@@ -46,4 +45,3 @@ private:
     QTimer* m_updateTimer;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef ECENEMYATTACKER_H
-#define ECENEMYATTACKER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -49,4 +48,3 @@ private:
 };
 
 }
-#endif

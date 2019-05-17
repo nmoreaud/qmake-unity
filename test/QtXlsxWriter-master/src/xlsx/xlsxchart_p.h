@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_CHART_P_H
-#define QXLSX_CHART_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -122,4 +121,3 @@ public:
 
 } // namespace QXlsx
 
-#endif // QXLSX_CHART_P_H

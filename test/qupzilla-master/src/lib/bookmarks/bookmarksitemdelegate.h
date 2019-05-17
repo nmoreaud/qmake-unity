@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSITEMDELEGATE_H
-#define BOOKMARKSITEMDELEGATE_H
+#pragma once
 
 #include <QStyledItemDelegate>
 
@@ -38,4 +37,3 @@ private:
     mutable QRect m_lastRect;
 };
 
-#endif

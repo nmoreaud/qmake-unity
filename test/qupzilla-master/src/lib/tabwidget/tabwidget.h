@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABWIDGET_H
-#define TABWIDGET_H
+#pragma once
 
 #include <QMenu>
 #include <QPointer>
@@ -181,4 +180,3 @@ private:
     bool m_currentTabFresh;
 };
 
-#endif

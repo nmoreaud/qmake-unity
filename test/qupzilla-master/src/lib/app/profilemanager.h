@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PROFILEMANAGER_H
-#define PROFILEMANAGER_H
+#pragma once
 
 #include <QString>
 
@@ -57,4 +56,3 @@ private:
     bool m_databaseConnected;
 };
 
-#endif

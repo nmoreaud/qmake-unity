@@ -41,6 +41,8 @@
 
 #define MIMETYPE QSL("application/qupzilla.tabbar.tab")
 
+//@NO_UNITY
+
 class TabBarTabMetrics : public QWidget
 {
     Q_OBJECT
@@ -729,4 +731,4 @@ void TabBar::dropEvent(QDropEvent* event)
     }
 }
 
-//#include "tabbar.moc"
+#include "tabbar.moc"

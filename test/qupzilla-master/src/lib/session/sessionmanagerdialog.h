@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SESSIONMANAGERDIALOG_H
-#define SESSIONMANAGERDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -59,4 +58,3 @@ private:
     Ui::SessionManagerDialog *ui;
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef VERTICALTABSPLUGIN_H
-#define VERTICALTABSPLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -83,4 +82,3 @@ private:
     QString m_theme;
     QString m_styleSheet;
 };
-#endif

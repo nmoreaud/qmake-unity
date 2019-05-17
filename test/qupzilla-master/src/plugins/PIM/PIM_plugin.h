@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PIM_PLUGIN_H
-#define PIM_PLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -49,4 +48,3 @@ private:
     PIM_Handler* m_handler;
 };
 
-#endif

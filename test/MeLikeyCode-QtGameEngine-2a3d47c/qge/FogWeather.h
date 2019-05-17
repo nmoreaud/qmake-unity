@@ -1,5 +1,4 @@
-#ifndef FOGWEATHER_H
-#define FOGWEATHER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -66,4 +65,3 @@ private:
 };
 
 }
-#endif

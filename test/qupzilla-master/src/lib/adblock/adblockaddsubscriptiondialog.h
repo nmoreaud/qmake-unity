@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ADBLOCKADDSUBSCRIPTIONDIALOG_H
-#define ADBLOCKADDSUBSCRIPTIONDIALOG_H
+#pragma once
 
 #include <QDialog>
 #include <QVector>
@@ -60,4 +59,3 @@ private:
     QVector<Subscription> m_knownSubscriptions;
 };
 
-#endif

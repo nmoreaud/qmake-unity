@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef DOWNLOADSBUTTON_H
-#define DOWNLOADSBUTTON_H
+#pragma once
 
 #include "abstractbuttoninterface.h"
 
@@ -38,4 +37,3 @@ private:
 
     DownloadManager *m_manager;
 };
-#endif

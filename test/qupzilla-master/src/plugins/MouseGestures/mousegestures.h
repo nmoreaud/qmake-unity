@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef MOUSEGESTURES_H
-#define MOUSEGESTURES_H
+#pragma once
 
 #include <QObject>
 #include <QPointer>
@@ -84,4 +83,3 @@ private:
     bool m_oldWebViewForceContextMenuOnRelease = false;
 };
 
-#endif

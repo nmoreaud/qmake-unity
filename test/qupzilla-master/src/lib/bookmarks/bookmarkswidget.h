@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSWIDGET_H
-#define BOOKMARKSWIDGET_H
+#pragma once
 
 #include <QMenu>
 
@@ -58,4 +57,3 @@ private:
     bool m_edited;
 };
 
-#endif

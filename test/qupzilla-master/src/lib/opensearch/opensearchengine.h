@@ -34,8 +34,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef OPENSEARCHENGINE_H
-#define OPENSEARCHENGINE_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -167,4 +166,3 @@ private:
 };
 
 
-#endif

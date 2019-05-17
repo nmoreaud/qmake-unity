@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_NOTIFICATION_H
-#define GM_NOTIFICATION_H
+#pragma once
 
 #include "animatedwidget.h"
 
@@ -48,4 +47,3 @@ private:
     QString m_fileName;
 };
 
-#endif

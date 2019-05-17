@@ -17,13 +17,7 @@ HEADERS += \
     SpiderCreator.h \
 
 
-DESTDIR = $$PWD/../bin/qgeTestGame
-OBJECTS_DIR = $$PWD/../build/qgeTestGame
-MOC_DIR = $$PWD/../build/qgeTestGame
-RCC_DIR = $$PWD/../build/qgeTestGame
-UI_DIR = $$PWD/../build/qgeTestGame
-UNITY_TMP_DIR=$$clean_path($$PWD/../build/unity/)
 UNITY_BUILD = 1
-UNITY_MOC_MODE = MOC_LVL_1
+UNITY_MOC_MODE = MOC_LVL_2
 
 include(../../../qmakeUnity/qmake_unity.pri)

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ICONCHOOSER_H
-#define ICONCHOOSER_H
+#pragma once
 
 #include <QDialog>
 #include <QStyledItemDelegate>
@@ -57,4 +56,3 @@ public:
     QSize sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const;
 };
 
-#endif

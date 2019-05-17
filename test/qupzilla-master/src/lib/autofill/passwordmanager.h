@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PASSWORDMANAGER_H
-#define PASSWORDMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QUrl>
@@ -104,4 +103,3 @@ Q_DECLARE_TYPEINFO(PasswordEntry, Q_MOVABLE_TYPE);
 
 Q_DECLARE_METATYPE(PasswordEntry)
 
-#endif

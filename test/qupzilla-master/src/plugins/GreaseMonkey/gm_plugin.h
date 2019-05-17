@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_PLUGIN_H
-#define GM_PLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -46,4 +45,3 @@ private:
     GM_Manager* m_manager;
 };
 
-#endif

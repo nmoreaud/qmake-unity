@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef MACTOOLBUTTON_H
-#define MACTOOLBUTTON_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -51,5 +50,4 @@ class QUPZILLA_EXPORT MacToolButton : public QToolButton
 public:
     explicit MacToolButton(QWidget* parent = 0);
 };
-#endif
 #endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef QZTOOLS_H
-#define QZTOOLS_H
+#pragma once
 
 #include <QFileDialog>
 
@@ -97,4 +96,3 @@ public:
     }
 };
 
-#endif

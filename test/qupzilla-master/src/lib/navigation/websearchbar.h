@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef WEBSEARCHBAR_H
-#define WEBSEARCHBAR_H
+#pragma once
 
 #include <QPointer>
 
@@ -91,4 +90,3 @@ private:
     bool m_reloadingEngines;
 };
 
-#endif

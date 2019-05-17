@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef MAINAPPLICATION_H
-#define MAINAPPLICATION_H
+#pragma once
 
 #define mApp MainApplication::instance()
 
@@ -216,4 +215,3 @@ public:
 #endif
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSSIDEBAR_H
-#define BOOKMARKSSIDEBAR_H
+#pragma once
 
 #include <QWidget>
 
@@ -58,4 +57,3 @@ private:
     Bookmarks* m_bookmarks;
 };
 
-#endif

@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_FORMAT_H
-#define QXLSX_FORMAT_H
+#pragma once
 
 #include "xlsxglobal.h"
 #include <QFont>
@@ -279,4 +278,3 @@ Q_XLSX_EXPORT QDebug operator<<(QDebug dbg, const Format &f);
 
 QT_END_NAMESPACE_XLSX
 
-#endif // QXLSX_FORMAT_H

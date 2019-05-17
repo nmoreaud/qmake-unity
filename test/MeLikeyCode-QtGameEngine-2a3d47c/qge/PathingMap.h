@@ -1,5 +1,4 @@
-#ifndef PATHINGMAP_H
-#define PATHINGMAP_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -90,4 +89,3 @@ private:
 }
 
 Q_DECLARE_METATYPE(qge::PathingMap);
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABTREEMODEL_H
-#define TABTREEMODEL_H
+#pragma once
 
 #include <QAbstractProxyModel>
 
@@ -73,4 +72,3 @@ private:
     TabTreeModelItem *m_root = nullptr;
     QHash<WebTab*, TabTreeModelItem*> m_items;
 };
-#endif

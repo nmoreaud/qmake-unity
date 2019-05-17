@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_XLSXMEDIAFILE_H
-#define QXLSX_XLSXMEDIAFILE_H
+#pragma once
 
 
 //
@@ -77,4 +76,3 @@ private:
 
 } // namespace QXlsx
 
-#endif // QXLSX_XLSXMEDIAFILE_H

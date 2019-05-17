@@ -1,5 +1,4 @@
-#ifndef ANIMATION_H
-#define ANIMATION_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -78,4 +77,3 @@ private:
 };
 
 }
-#endif

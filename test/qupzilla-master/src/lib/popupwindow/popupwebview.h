@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef POPUPWEBVIEW_H
-#define POPUPWEBVIEW_H
+#pragma once
 
 #include <QPointer>
 
@@ -50,4 +49,3 @@ private:
     QPointer<WebInspector> m_inspector;
 };
 
-#endif

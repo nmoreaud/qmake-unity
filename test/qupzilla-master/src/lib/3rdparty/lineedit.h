@@ -1,5 +1,4 @@
-#ifndef LINEEDIT_H
-#define LINEEDIT_H
+#pragma once
 
 /**
 * Copyright (c) 2008 - 2009, Benjamin C. Meyer <ben@meyerhome.net>
@@ -159,4 +158,3 @@ protected:
 
 };
 
-#endif

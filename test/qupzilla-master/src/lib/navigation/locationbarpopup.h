@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef LOCATIONBARPOPUP_H
-#define LOCATIONBARPOPUP_H
+#pragma once
 
 #include <QFrame>
 
@@ -37,4 +36,3 @@ private:
     Qt::Alignment m_alignment;
 };
 
-#endif

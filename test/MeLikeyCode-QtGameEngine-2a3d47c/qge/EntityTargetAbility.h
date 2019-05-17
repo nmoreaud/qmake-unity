@@ -1,5 +1,4 @@
-#ifndef ENTITYTARGETABILITY_H
-#define ENTITYTARGETABILITY_H
+#pragma once
 
 #include "Ability.h"
 
@@ -22,4 +21,3 @@ protected:
 };
 
 }
-#endif

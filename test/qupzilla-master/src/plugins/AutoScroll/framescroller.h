@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef FRAMESCROLLER_H
-#define FRAMESCROLLER_H
+#pragma once
 
 #include <QObject>
 
@@ -51,4 +50,3 @@ private:
     double m_divider;
 };
 
-#endif

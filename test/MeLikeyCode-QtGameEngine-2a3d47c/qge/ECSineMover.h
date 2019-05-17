@@ -1,5 +1,4 @@
-#ifndef ECSINEMOVER_H
-#define ECSINEMOVER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -64,4 +63,3 @@ private:
 };
 
 }
-#endif

@@ -1,5 +1,4 @@
-#ifndef ENTITYCREATOR_H
-#define ENTITYCREATOR_H
+#pragma once
 
 namespace qge{
 
@@ -19,4 +18,3 @@ public:
 };
 
 }
-#endif

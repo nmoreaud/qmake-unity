@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABMANAGERWIDGET_H
-#define TABMANAGERWIDGET_H
+#pragma once
 
 #include <QWidget>
 #include <QPointer>
@@ -150,4 +149,3 @@ private:
     bool m_isTab;
 };
 
-#endif

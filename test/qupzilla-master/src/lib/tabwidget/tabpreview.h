@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABPREVIEW_H
-#define TABPREVIEW_H
+#pragma once
 
 #include <QFrame>
 #include <QTimeLine>
@@ -85,4 +84,3 @@ private:
     qreal m_stepHeight;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef MELEEWEAPON_H
-#define MELEEWEAPON_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -28,4 +27,3 @@ private:
 };
 
 }
-#endif

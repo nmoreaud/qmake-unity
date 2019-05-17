@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXFORMAT_P_H
-#define XLSXFORMAT_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -158,4 +157,3 @@ public:
 
 }
 
-#endif // XLSXFORMAT_P_H

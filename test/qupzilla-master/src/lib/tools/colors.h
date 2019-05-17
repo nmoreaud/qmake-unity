@@ -16,8 +16,7 @@
  *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef COLORS_H
-#define COLORS_H
+#pragma once
 
 class QWidget;
 #include <QColor>
@@ -42,4 +41,3 @@ int value(const QColor &c);
 }
 // }
 
-#endif

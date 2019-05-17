@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PLUGININTERFACE_H
-#define PLUGININTERFACE_H
+#pragma once
 
 #include <QPixmap>
 #include <QtPlugin>
@@ -88,4 +87,3 @@ public:
 
 Q_DECLARE_INTERFACE(PluginInterface, "QupZilla.Browser.PluginInterface/2.0")
 
-#endif

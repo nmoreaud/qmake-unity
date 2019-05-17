@@ -1,5 +1,4 @@
-#ifndef CBDAMAGE_H
-#define CBDAMAGE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -27,4 +26,3 @@ private:
 };
 
 }
-#endif

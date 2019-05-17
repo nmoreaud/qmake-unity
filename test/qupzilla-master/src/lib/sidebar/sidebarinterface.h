@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SIDEBARINTERFACE_H
-#define SIDEBARINTERFACE_H
+#pragma once
 
 #include <QObject>
 
@@ -37,4 +36,3 @@ public:
     virtual QWidget* createSideBarWidget(BrowserWindow* mainWindow) = 0;
 };
 
-#endif

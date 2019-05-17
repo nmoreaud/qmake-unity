@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_XLSXCELLRANGE_H
-#define QXLSX_XLSXCELLRANGE_H
+#pragma once
 #include "xlsxglobal.h"
 #include "xlsxcellreference.h"
 
@@ -76,4 +75,3 @@ QT_END_NAMESPACE_XLSX
 
 Q_DECLARE_TYPEINFO(QXlsx::CellRange, Q_MOVABLE_TYPE);
 
-#endif // QXLSX_XLSXCELLRANGE_H

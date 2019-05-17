@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_XLSXZIPREADER_P_H
-#define QXLSX_XLSXZIPREADER_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -64,4 +63,3 @@ private:
 
 } // namespace QXlsx
 
-#endif // QXLSX_XLSXZIPREADER_P_H

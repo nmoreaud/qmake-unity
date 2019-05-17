@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PLUGINPROXY_H
-#define PLUGINPROXY_H
+#pragma once
 
 #include "plugins.h"
 #include "qzcommon.h"
@@ -82,4 +81,3 @@ private:
     QList<PluginInterface*> m_keyReleaseHandlers;
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef COMMANDLINEOPTIONS_H
-#define COMMANDLINEOPTIONS_H
+#pragma once
 
 #include <QVector>
 
@@ -44,4 +43,3 @@ private:
 // Hint to QVector to use std::realloc on item moving
 Q_DECLARE_TYPEINFO(CommandLineOptions::ActionPair, Q_MOVABLE_TYPE);
 
-#endif

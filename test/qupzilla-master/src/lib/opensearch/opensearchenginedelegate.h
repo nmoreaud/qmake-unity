@@ -17,8 +17,7 @@
  * Boston, MA  02110-1301  USA
  */
 
-#ifndef OPENSEARCHENGINEDELEGATE_H
-#define OPENSEARCHENGINEDELEGATE_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -36,4 +35,3 @@ public:
                                       const QByteArray &data) = 0;
 };
 
-#endif

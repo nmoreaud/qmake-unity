@@ -1,5 +1,4 @@
-#ifndef ABILITY_H
-#define ABILITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -53,4 +52,3 @@ private:
 };
 
 }
-#endif

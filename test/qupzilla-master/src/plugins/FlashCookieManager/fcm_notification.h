@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef FCM_NOTIFICATION_H
-#define FCM_NOTIFICATION_H
+#pragma once
 
 #include "animatedwidget.h"
 
@@ -41,4 +40,3 @@ private:
     FCM_Plugin* m_manager;
 };
 
-#endif

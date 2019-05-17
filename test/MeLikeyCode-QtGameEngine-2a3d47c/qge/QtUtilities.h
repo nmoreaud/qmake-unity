@@ -1,5 +1,4 @@
-#ifndef QTUTILITIES_H
-#define QTUTILITIES_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -24,4 +23,3 @@ namespace QtUtils {
 }
 
 }
-#endif

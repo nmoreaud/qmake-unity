@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HTML5PERMISSIONSDIALOG_H
-#define HTML5PERMISSIONSDIALOG_H
+#pragma once
 
 #include <QDialog>
 #include <QStringList>
@@ -55,4 +54,3 @@ private:
     QHash<QWebEnginePage::Feature, QStringList> m_denied;
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef BOW_H
-#define BOW_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -23,4 +22,3 @@ private:
 };
 
 }
-#endif

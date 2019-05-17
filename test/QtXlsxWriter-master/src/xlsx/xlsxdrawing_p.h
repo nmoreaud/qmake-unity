@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_DRAWING_H
-#define QXLSX_DRAWING_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -69,4 +68,3 @@ public:
 
 } // namespace QXlsx
 
-#endif // QXLSX_DRAWING_H

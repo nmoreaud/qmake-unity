@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef CLOSEDWINDOWSMANAGER_H
-#define CLOSEDWINDOWSMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QVector>
@@ -65,4 +64,3 @@ private:
 
 // Hint to Qt to use std::realloc on item moving
 Q_DECLARE_TYPEINFO(ClosedWindowsManager::Window, Q_MOVABLE_TYPE);
-#endif

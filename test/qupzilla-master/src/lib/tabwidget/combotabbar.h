@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef COMBOTABBAR_H
-#define COMBOTABBAR_H
+#pragma once
 
 #include "qzcommon.h"
 #include "wheelhelper.h"
@@ -369,4 +368,3 @@ public:
     void leaveEvent(QEvent *event) override;
     void paintEvent(QPaintEvent *event) override;
 };
-#endif

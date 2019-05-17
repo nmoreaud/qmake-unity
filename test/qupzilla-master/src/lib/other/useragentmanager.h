@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef USERAGENTMANAGER_H
-#define USERAGENTMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QHash>
@@ -48,4 +47,3 @@ private:
     QHash<QString, QString> m_userAgentsList;
 };
 
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PLUGINS_H
-#define PLUGINS_H
+#pragma once
 
 #include <QObject>
 #include <QVariant>
@@ -98,4 +97,3 @@ private:
 
 Q_DECLARE_METATYPE(Plugins::Plugin)
 
-#endif

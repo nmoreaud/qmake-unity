@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef JSOPTIONS_H
-#define JSOPTIONS_H
+#pragma once
 
 #include <QDialog>
 
@@ -43,4 +42,3 @@ private:
     Ui::JsOptions* ui;
 };
 
-#endif

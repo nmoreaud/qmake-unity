@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSEXPORTDIALOG_H
-#define BOOKMARKSEXPORTDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -49,4 +48,3 @@ private:
     BookmarksExporter* m_currentExporter;
 };
 
-#endif

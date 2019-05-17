@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_XLSXCOLOR_P_H
-#define QXLSX_XLSXCOLOR_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -89,4 +88,3 @@ Q_XLSX_EXPORT QDebug operator<<(QDebug dbg, const XlsxColor &c);
 
 Q_DECLARE_METATYPE(QXlsx::XlsxColor)
 
-#endif // QXLSX_XLSXCOLOR_P_H

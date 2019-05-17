@@ -1,5 +1,4 @@
-#ifndef SPEARPROJECTILE_H
-#define SPEARPROJECTILE_H
+#pragma once
 
 #include "Projectile.h"
 
@@ -27,4 +26,3 @@ private:
 };
 
 }
-#endif

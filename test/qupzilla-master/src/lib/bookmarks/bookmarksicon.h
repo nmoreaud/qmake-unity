@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSICON_H
-#define BOOKMARKSICON_H
+#pragma once
 
 #include <QUrl>
 
@@ -53,4 +52,3 @@ private:
     QUrl m_lastUrl;
 };
 
-#endif

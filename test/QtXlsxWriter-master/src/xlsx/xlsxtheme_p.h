@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXTHEME_H
-#define XLSXTHEME_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -56,4 +55,3 @@ public:
 };
 
 }
-#endif // XLSXTHEME_H

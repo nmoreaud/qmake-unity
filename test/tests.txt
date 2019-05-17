@@ -5,5 +5,7 @@ It needs openssl library (I downloaded a precompiled version with msvc 2017)
 Compile projects : src/lib/lib.pro, src/plugins/plugins.pro
 
 - QtXlsxWriter builds with MinGW, and requires PERL.
+Compile project : src/xlsx/xlsx.pro
 
 - QGE has been compiled with mingw and MSVC 2017 (no dependencies)
+Compile project : testProject/QGETestGame.pro

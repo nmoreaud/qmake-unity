@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABTREEDELEGATE_H
-#define TABTREEDELEGATE_H
+#pragma once
 
 #include <QAbstractButton>
 #include <QStyledItemDelegate>
@@ -74,4 +73,3 @@ private:
     int m_padding;
     int m_indentation;
 };
-#endif

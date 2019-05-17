@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef THEMEMANAGER_H
-#define THEMEMANAGER_H
+#pragma once
 
 #include <QWidget>
 #include <QIcon>
@@ -66,4 +65,3 @@ private:
     QHash<QString, Theme> m_themeHash;
 };
 
-#endif

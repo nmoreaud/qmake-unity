@@ -1,5 +1,4 @@
-#ifndef ANIMATIONATTACK_H
-#define ANIMATIONATTACK_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -38,4 +37,3 @@ private:
 };
 
 }
-#endif

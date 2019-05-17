@@ -1,5 +1,4 @@
-#ifndef ECITEMPICKERUPPER_H
-#define ECITEMPICKERUPPER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -21,4 +20,3 @@ public slots:
 };
 
 }
-#endif

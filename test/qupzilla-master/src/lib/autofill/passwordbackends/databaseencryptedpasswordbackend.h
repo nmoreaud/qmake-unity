@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef DATABASEENCRYPTEDPASSWORDBACKEND_H
-#define DATABASEENCRYPTEDPASSWORDBACKEND_H
+#pragma once
 
 #include "passwordbackend.h"
 #include "qzcommon.h"
@@ -139,4 +138,3 @@ private:
     QLineEdit* m_lineEdit;
     QLabel* m_labelWarning;
 };
-#endif

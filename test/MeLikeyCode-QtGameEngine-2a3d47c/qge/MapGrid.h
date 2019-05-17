@@ -1,5 +1,4 @@
-#ifndef MAPGRID_H
-#define MAPGRID_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -34,4 +33,3 @@ private:
 };
 
 }
-#endif

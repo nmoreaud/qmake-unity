@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef AUTOFILLJSOBJECT_H
-#define AUTOFILLJSOBJECT_H
+#pragma once
 
 #include <QObject>
 
@@ -36,4 +35,3 @@ private:
     ExternalJsObject *m_jsObject;
 };
 
-#endif

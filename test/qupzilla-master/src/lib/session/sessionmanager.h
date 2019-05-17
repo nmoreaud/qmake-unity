@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SESSIONMANAGER_H
-#define SESSIONMANAGER_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -94,4 +93,3 @@ private:
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(SessionManager::SessionFlags)
 
-#endif

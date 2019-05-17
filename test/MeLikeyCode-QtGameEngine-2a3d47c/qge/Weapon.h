@@ -1,5 +1,4 @@
-#ifndef WEAPON_H
-#define WEAPON_H
+#pragma once
 
 #include "EquipableItem.h"
 
@@ -22,4 +21,3 @@ private:
 };
 
 }
-#endif

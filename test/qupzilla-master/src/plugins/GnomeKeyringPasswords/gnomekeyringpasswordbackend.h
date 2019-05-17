@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GNOMEKEYRINGPASSWORDBACKEND_H
-#define GNOMEKEYRINGPASSWORDBACKEND_H
+#pragma once
 
 #include <QVector>
 
@@ -47,4 +46,3 @@ private:
     QVector<PasswordEntry> m_allEntries;
 };
 
-#endif

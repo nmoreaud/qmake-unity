@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HISTORYMENU_H
-#define HISTORYMENU_H
+#pragma once
 
 #include <QPointer>
 
@@ -66,4 +65,3 @@ private:
     Menu *m_menuClosedWindows;
 };
 
-#endif

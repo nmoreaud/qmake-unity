@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AUTOFILLNOTIFICATION_H
-#define AUTOFILLNOTIFICATION_H
+#pragma once
 
 #include <QUrl>
 
@@ -55,4 +54,3 @@ private:
     PasswordEntry m_updateData;
 };
 
-#endif

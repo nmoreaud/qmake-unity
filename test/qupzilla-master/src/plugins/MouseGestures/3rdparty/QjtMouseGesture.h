@@ -35,8 +35,7 @@
  *
  */
 
-#ifndef QJTMOUSEGESTURE_H
-#define QJTMOUSEGESTURE_H
+#pragma once
 
 #include <QObject>
 #include <QList>
@@ -114,4 +113,3 @@ private:
     DirectionList m_directions;
 };
 
-#endif

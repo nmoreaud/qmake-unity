@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AUTOSCROLLER_H
-#define AUTOSCROLLER_H
+#pragma once
 
 #include <QObject>
 #include <QLabel>
@@ -71,4 +70,3 @@ private:
     QString m_settingsFile;
 };
 
-#endif

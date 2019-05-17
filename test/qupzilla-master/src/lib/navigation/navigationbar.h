@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef NAVIGATIONBAR_H
-#define NAVIGATIONBAR_H
+#pragma once
 
 #include <QWidget>
 
@@ -128,4 +127,3 @@ private:
     friend class NavigationBarConfigDialog;
 };
 
-#endif

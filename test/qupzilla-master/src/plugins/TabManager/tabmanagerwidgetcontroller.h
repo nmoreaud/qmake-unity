@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABMANAGERWIDGETCONTROLLER_H
-#define TABMANAGERWIDGETCONTROLLER_H
+#pragma once
 
 #include "sidebarinterface.h"
 #include "tabmanagerwidget.h"
@@ -64,4 +63,3 @@ signals:
     void requestRefreshTree(WebPage* p = 0);
 };
 
-#endif

@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef RESTOREMANAGER_H
-#define RESTOREMANAGER_H
+#pragma once
 
 #include "qzcommon.h"
 #include "browserwindow.h"
@@ -60,4 +59,3 @@ private:
     RestoreData m_data;
 };
 
-#endif

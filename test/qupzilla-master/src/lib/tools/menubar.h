@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef MENUBAR_H
-#define MENUBAR_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -38,4 +37,3 @@ private:
 
 };
 
-#endif

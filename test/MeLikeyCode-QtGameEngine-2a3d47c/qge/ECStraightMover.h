@@ -1,5 +1,4 @@
-#ifndef ECSTRAIGHTMOVER_H
-#define ECSTRAIGHTMOVER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -59,4 +58,3 @@ private:
 };
 
 }
-#endif

@@ -1,5 +1,4 @@
-#ifndef ECFIELDOFVIEWEMITTER_H
-#define ECFIELDOFVIEWEMITTER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -74,4 +73,3 @@ private:
 };
 
 }
-#endif

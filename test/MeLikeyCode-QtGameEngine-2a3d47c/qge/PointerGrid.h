@@ -1,5 +1,4 @@
-#ifndef POINTERGRID_H
-#define POINTERGRID_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -136,4 +135,3 @@ std::vector<PointerType *> PointerGrid<PointerType>::pointers() const
 }
 
 }
-#endif

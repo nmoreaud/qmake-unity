@@ -1,5 +1,4 @@
-#ifndef BODYTHRUST_H
-#define BODYTHRUST_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -61,4 +60,3 @@ private:
 };
 
 }
-#endif

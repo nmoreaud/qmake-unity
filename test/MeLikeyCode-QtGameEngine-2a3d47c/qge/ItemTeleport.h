@@ -1,5 +1,4 @@
-#ifndef ITEMTELEPORT_H
-#define ITEMTELEPORT_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -20,4 +19,3 @@ private:
 };
 
 }
-#endif

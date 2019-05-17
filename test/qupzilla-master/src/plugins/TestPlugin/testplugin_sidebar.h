@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TESTPLUGIN_SIDEBAR_H
-#define TESTPLUGIN_SIDEBAR_H
+#pragma once
 
 #include "sidebarinterface.h"
 
@@ -32,4 +31,3 @@ public:
     QWidget* createSideBarWidget(BrowserWindow* mainWindow);
 };
 
-#endif

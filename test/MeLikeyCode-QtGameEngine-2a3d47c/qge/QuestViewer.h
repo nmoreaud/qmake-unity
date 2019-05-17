@@ -1,5 +1,4 @@
-#ifndef QUESTVIEWER_H
-#define QUESTVIEWER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -57,4 +56,3 @@ private:
 };
 
 }
-#endif

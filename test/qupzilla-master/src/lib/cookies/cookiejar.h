@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef COOKIEJAR_H
-#define COOKIEJAR_H
+#pragma once
 
 #include <QVector>
 #include <QStringList>
@@ -72,4 +71,3 @@ private:
     QVector<QNetworkCookie> m_cookies;
 };
 
-#endif

@@ -35,8 +35,7 @@
  *
  */
 
-#ifndef RING_BUFFER_H
-#define RING_BUFFER_H
+#pragma once
 
 #include <vector>
 
@@ -128,4 +127,3 @@ protected:
     bool empty;
 };
 
-#endif

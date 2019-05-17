@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef NETWORKURLINTERCEPTOR_H
-#define NETWORKURLINTERCEPTOR_H
+#pragma once
 
 #include <QMutex>
 #include <QWebEngineUrlRequestInterceptor>
@@ -46,4 +45,3 @@ private:
     QHash<QString, QString> m_userAgentsList;
 };
 
-#endif

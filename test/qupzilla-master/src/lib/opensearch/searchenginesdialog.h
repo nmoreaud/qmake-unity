@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SEARCHENGINESDIALOG_H
-#define SEARCHENGINESDIALOG_H
+#pragma once
 
 #include "qzcommon.h"
 #include "searchenginesmanager.h"
@@ -71,4 +70,3 @@ private:
     SearchEnginesManager* m_manager;
 };
 
-#endif

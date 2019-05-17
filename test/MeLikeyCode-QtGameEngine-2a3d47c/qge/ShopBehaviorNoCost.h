@@ -1,5 +1,4 @@
-#ifndef SHOPBEHAVIORNOCOST_H
-#define SHOPBEHAVIORNOCOST_H
+#pragma once
 
 #include "ShopGuiBehavior.h"
 
@@ -13,4 +12,3 @@ public:
 };
 
 }
-#endif

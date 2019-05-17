@@ -1,5 +1,4 @@
-#ifndef EQUIPABLEITEM_H
-#define EQUIPABLEITEM_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -33,4 +32,3 @@ private:
 };
 
 }
-#endif

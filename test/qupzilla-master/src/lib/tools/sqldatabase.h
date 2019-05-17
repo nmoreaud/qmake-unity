@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SQLDATABASE_H
-#define SQLDATABASE_H
+#pragma once
 
 #include <QHash>
 #include <QMutex>
@@ -46,4 +45,3 @@ private:
     QString m_connectOptions;
 };
 
-#endif

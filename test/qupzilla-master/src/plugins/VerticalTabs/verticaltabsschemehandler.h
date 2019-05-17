@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef VERTICALTABSSCHEMEHANDLER_H
-#define VERTICALTABSSCHEMEHANDLER_H
+#pragma once
 
 #include "schemehandlers/extensionschemehandler.h"
 
@@ -31,4 +30,3 @@ private:
     QByteArray indexPage() const;
     QByteArray groupPage() const;
 };
-#endif

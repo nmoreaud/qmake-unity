@@ -1,5 +1,4 @@
-#ifndef SHOPGUI_H
-#define SHOPGUI_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -57,4 +56,3 @@ private:
 };
 
 }
-#endif

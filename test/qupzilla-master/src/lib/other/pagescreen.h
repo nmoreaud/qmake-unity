@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PAGESCREEN_H
-#define PAGESCREEN_H
+#pragma once
 
 #include <QDialog>
 #include <QFutureWatcher>
@@ -67,4 +66,3 @@ private:
 
 #endif
 
-#endif

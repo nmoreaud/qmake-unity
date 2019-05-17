@@ -1,5 +1,4 @@
-#ifndef INVENTORY_H
-#define INVENTORY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -51,4 +50,3 @@ private:
 };
 
 }
-#endif

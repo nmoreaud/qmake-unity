@@ -1,5 +1,4 @@
-#ifndef EDGE_H
-#define EDGE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -49,4 +48,3 @@ struct hash<qge::Edge> // full template specialization
     }
 };
 }
-#endif

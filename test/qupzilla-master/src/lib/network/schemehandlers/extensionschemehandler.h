@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef EXTENSIONSCHEMEHANDLER_H
-#define EXTENSIONSCHEMEHANDLER_H
+#pragma once
 
 #include <QWebEngineUrlSchemeHandler>
 
@@ -46,4 +45,3 @@ public:
 private:
     QHash<QString, ExtensionSchemeHandler*> m_handlers;
 };
-#endif

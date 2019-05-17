@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSTOOLS_H
-#define BOOKMARKSTOOLS_H
+#pragma once
 
 #include <QMenu>
 #include <QPushButton>
@@ -103,4 +102,3 @@ public:
     static bool migrateBookmarksIfNecessary(Bookmarks* bookmarks);
 };
 
-#endif

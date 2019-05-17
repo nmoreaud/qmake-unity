@@ -1,5 +1,4 @@
-#ifndef MCSPAWNER_H
-#define MCSPAWNER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -40,4 +39,3 @@ private:
 };
 
 }
-#endif

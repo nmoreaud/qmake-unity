@@ -36,8 +36,7 @@
  */
 
 
-#ifndef ADV_RECOGNIZER_H
-#define ADV_RECOGNIZER_H
+#pragma once
 
 #include "mousegesturerecognizer.h"
 #include "ring_buffer.h"
@@ -74,4 +73,3 @@ private:
 
 }; //end Gesture
 
-#endif

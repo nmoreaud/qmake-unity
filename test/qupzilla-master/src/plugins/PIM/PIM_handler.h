@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PIM_HANDLER_H
-#define PIM_HANDLER_H
+#pragma once
 
 #include <QObject>
 #include <QMessageBox>
@@ -88,4 +87,3 @@ private:
     bool m_loaded;
 };
 
-#endif

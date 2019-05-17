@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import glob
 import os
 import re
@@ -146,7 +147,7 @@ class Group:
             j += 1
             if j % desiredGroupsSize == 0:
                 g = Group()
-                # crée une copie de la liste
+                # creates a copy of the list
                 g.headers = list(headers)
                 groupList.append(g)
                 headers.clear()
@@ -253,7 +254,8 @@ class Group:
             groupFiles = [group.file for group in groupList]
             print("HEADERS += " + " ".join(groupFiles), file=file)
 
-            # remove original headers that has been merged from the build
+            # Remove original headers that has been merged from the build
+            # To remove a header file from qmake, you must type the exact same path as qmake passed it to this script through unityHeaders.txt
             headerFiles = [header.pathFromProject for group in groupList for header in group.headers]
             print("HEADERS -= " + " ".join(headerFiles), file=file)
 
@@ -265,7 +267,7 @@ class Group:
                 relPathToGroup = os.path.relpath(group.file)
                 relPathToGroupListing = os.path.relpath(group.fileListing)
                 thisScriptPath = os.path.realpath(__file__)
-                commandScript = 'python ' + thisScriptPath + ' update_group ' + relPathToGroupListing
+                commandScript = 'python ' + thisScriptPath + ' --mode update_group --groupFileListing ' + relPathToGroupListing
 
                 command = []
                 command.append('%s.target = %s' % (commandName, relPathToGroup))
@@ -330,17 +332,26 @@ def argumentsCheckModeGenerateGroups(unityDirectory, projectHeaderList):
     for header in projectHeaderList:
         assert header.pathFromProject.endswith(".h") or header.pathFromProject.endswith('.hpp'), "Error : this file is not a header : " + header.pathFromProject
 
+def buildArgsParser():
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--mode', type=str, choices=('update_group', 'generate_groups'))
+    parser.add_argument('--headerListPath', type=str)
+    parser.add_argument('--groupFileListing', type=str)
+
+    return parser
 
 def main():
-    # must be executed from the project's source directory (which also contains the .pro file)
+    # must be executed from the project's source directory (which contains the .pro file)
+    # print_dev("current dir : " + os.getcwd())
+    cliArgs = buildArgsParser().parse_args()
 
     try:
-        # mode : update_group or generate_groups
-        mode = sys.argv[1]
-
+        mode = cliArgs.mode
+        inputProjectHeaderListFile = cliArgs.headerListPath
+        groupFileListing = cliArgs.groupFileListing
+        
         if mode == 'generate_groups':
             # file that contains the content qmake "HEADERS" variable
-            inputProjectHeaderListFile = sys.argv[2]
             assert os.path.exists(inputProjectHeaderListFile), "The headers file list doesn't exists : " + inputProjectHeaderListFile + ". This error is probably the consequence of another error."
 
             with open(inputProjectHeaderListFile) as file:
@@ -362,10 +373,8 @@ def main():
             headerGroupSize = MOC_GROUPSIZE
 
             generateUnityBuildFiles(unityPriFile, unityDirectory, headerGroupList, headerList, headerGroupSize, "w+")
-            #print("success")
 
         if mode == 'update_group':
-            groupFileListing = sys.argv[2]
             unityDirectory = os.path.dirname(groupFileListing)
             group = Group.readGroupFromListingFile(groupFileListing)
             assert(len(group.headers) > 0)

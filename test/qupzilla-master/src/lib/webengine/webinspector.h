@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef WEBINSPECTOR_H
-#define WEBINSPECTOR_H
+#pragma once
 
 #include <QWebEngineView>
 
@@ -55,4 +54,3 @@ private:
     bool m_inspectElement = false;
     WebView *m_view;
 };
-#endif

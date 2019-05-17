@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef QZCOMMON_H
-#define QZCOMMON_H
+#pragma once
 
 #include <QDebug>
 #include <QFlags>
@@ -137,4 +136,3 @@ Q_DECLARE_OPERATORS_FOR_FLAGS(Qz::NewTabPositionFlags)
 #define DEFAULT_DOWNLOAD_USE_NATIVE_DIALOG true
 #endif
 
-#endif

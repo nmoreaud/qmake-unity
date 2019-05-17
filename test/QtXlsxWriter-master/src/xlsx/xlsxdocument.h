@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_XLSXDOCUMENT_H
-#define QXLSX_XLSXDOCUMENT_H
+#pragma once
 
 #include "xlsxglobal.h"
 #include "xlsxformat.h"
@@ -130,4 +129,3 @@ private:
 
 QT_END_NAMESPACE_XLSX
 
-#endif // QXLSX_XLSXDOCUMENT_H

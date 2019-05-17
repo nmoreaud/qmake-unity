@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HISTORY_H
-#define HISTORY_H
+#pragma once
 
 #include <QObject>
 #include <QList>
@@ -85,4 +84,3 @@ typedef History::HistoryEntry HistoryEntry;
 // Hint to QVector to use std::realloc on item moving
 Q_DECLARE_TYPEINFO(HistoryEntry, Q_MOVABLE_TYPE);
 
-#endif

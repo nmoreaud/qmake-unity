@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef LOCATIONCOMPLETERREFRESHJOB_H
-#define LOCATIONCOMPLETERREFRESHJOB_H
+#pragma once
 
 #include <QFutureWatcher>
 
@@ -68,4 +67,3 @@ private:
     bool m_jobCancelled;
 };
 
-#endif

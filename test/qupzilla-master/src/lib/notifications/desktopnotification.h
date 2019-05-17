@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef DESKTOPNOTIFICATION_H
-#define DESKTOPNOTIFICATION_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -56,4 +55,3 @@ private:
     QTimer* m_timer;
 };
 
-#endif

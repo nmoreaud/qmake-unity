@@ -1,5 +1,4 @@
-#ifndef CHEALTHSHOWER_H
-#define CHEALTHSHOWER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -37,4 +36,3 @@ private:
 };
 
 }
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HISTORYITEM_H
-#define HISTORYITEM_H
+#pragma once
 
 #include <QIcon>
 
@@ -70,4 +69,3 @@ private:
     qint64 m_endTimestamp;
 };
 
-#endif

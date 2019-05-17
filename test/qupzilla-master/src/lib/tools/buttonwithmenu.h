@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BUTTONWITHMENU_H
-#define BUTTONWITHMENU_H
+#pragma once
 
 #include <QVariant>
 
@@ -96,4 +95,3 @@ Q_DECLARE_TYPEINFO(ButtonWithMenu::Item, Q_MOVABLE_TYPE);
 
 Q_DECLARE_METATYPE(ButtonWithMenu::Item)
 
-#endif

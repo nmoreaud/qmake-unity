@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_ADDSCRIPTDIALOG_H
-#define GM_ADDSCRIPTDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -48,4 +47,3 @@ private:
     GM_Script* m_script;
 };
 
-#endif

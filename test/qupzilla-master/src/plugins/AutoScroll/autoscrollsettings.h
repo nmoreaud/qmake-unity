@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AUTOSCROLLSETTINGS_H
-#define AUTOSCROLLSETTINGS_H
+#pragma once
 
 #include <QDialog>
 
@@ -43,4 +42,3 @@ private:
     AutoScroller* m_scroller;
 };
 
-#endif

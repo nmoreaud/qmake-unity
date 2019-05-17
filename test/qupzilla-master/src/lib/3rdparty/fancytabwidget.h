@@ -27,8 +27,7 @@
 **
 **************************************************************************/
 
-#ifndef FANCYTABWIDGET_H
-#define FANCYTABWIDGET_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -235,4 +234,3 @@ using Core::Internal::FancyTab;
 using Core::Internal::FancyTabBar;
 using Core::Internal::FancyTabWidget;
 
-#endif

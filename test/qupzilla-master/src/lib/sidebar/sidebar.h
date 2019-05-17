@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SIDEBAR_H
-#define SIDEBAR_H
+#pragma once
 
 #include <QWidget>
 #include <QHash>
@@ -83,4 +82,3 @@ private:
     QString m_activeBar;
 };
 
-#endif

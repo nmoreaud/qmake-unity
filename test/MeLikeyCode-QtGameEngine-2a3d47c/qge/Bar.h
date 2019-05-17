@@ -1,5 +1,4 @@
-#ifndef BAR_H
-#define BAR_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -62,4 +61,3 @@ private:
 };
 
 }
-#endif

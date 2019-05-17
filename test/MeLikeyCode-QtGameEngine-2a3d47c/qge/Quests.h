@@ -1,5 +1,4 @@
-#ifndef QUESTS_H
-#define QUESTS_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -43,4 +42,3 @@ private:
 };
 
 }
-#endif

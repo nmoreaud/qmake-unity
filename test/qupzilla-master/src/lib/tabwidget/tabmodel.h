@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABMODEL_H
-#define TABMODEL_H
+#pragma once
 
 #include <QPointer>
 #include <QMimeData>
@@ -88,4 +87,3 @@ private:
     BrowserWindow *m_window;
     QVector<WebTab*> m_tabs;
 };
-#endif

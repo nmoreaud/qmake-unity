@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SBI_ICONSMANAGER_H
-#define SBI_ICONSMANAGER_H
+#pragma once
 
 #include <QWidget>
 #include <QHash>
@@ -65,4 +64,3 @@ private:
     SBI_NetworkManager* m_networkManager;
 };
 
-#endif

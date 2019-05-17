@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABCONTEXTMENU_H
-#define TABCONTEXTMENU_H
+#pragma once
 
 #include <QMenu>
 
@@ -81,4 +80,3 @@ private:
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(TabContextMenu::Options)
 
-#endif

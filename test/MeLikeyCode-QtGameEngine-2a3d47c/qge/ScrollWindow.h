@@ -1,5 +1,4 @@
-#ifndef SCROLLWINDOW_H
-#define SCROLLWINDOW_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -63,4 +62,3 @@ private:
 };
 
 }
-#endif

@@ -1,5 +1,4 @@
-#ifndef ECPATHMOVER_H
-#define ECPATHMOVER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -75,4 +74,3 @@ private:
 };
 
 }
-#endif

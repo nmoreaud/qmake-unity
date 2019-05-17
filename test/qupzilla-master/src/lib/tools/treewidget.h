@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TREEWIDGET_H
-#define TREEWIDGET_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -65,4 +64,3 @@ private:
     ItemShowMode m_showMode;
 };
 
-#endif

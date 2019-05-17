@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABICON_H
-#define TABICON_H
+#pragma once
 
 #include <QWidget>
 #include <QImage>
@@ -75,4 +74,3 @@ private:
     QRect m_audioIconRect;
 };
 
-#endif

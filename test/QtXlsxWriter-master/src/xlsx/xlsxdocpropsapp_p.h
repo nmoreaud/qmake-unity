@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXDOCPROPSAPP_H
-#define XLSXDOCPROPSAPP_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -69,4 +68,3 @@ private:
 };
 
 }
-#endif // XLSXDOCPROPSAPP_H

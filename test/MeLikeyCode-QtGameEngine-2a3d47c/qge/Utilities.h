@@ -1,5 +1,4 @@
-#ifndef UTILITIES_H
-#define UTILITIES_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -32,4 +31,3 @@ double randInt(int from, int to);
 double randDouble(double from, double to);
 
 }
-#endif

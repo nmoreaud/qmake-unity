@@ -1,5 +1,4 @@
-#ifndef STLWRAPPERS_H
-#define STLWRAPPERS_H
+#pragma once
 
 /// This file defines some STL wrapper functions that provide a simpler interface to the STL containers.
 /// Provides the following functions for all STL containers.
@@ -243,4 +242,3 @@ namespace STLWrappers
 	///@}
 
 }
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef VERTICALTABSCONTROLLER_H
-#define VERTICALTABSCONTROLLER_H
+#pragma once
 
 #include <QHash>
 #include <QPointer>
@@ -46,4 +45,3 @@ private:
     VerticalTabsPlugin *m_plugin;
     QHash<BrowserWindow*, QPointer<VerticalTabsWidget>> m_widgets;
 };
-#endif

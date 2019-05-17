@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_SETTINGSLISTWIDGET_H
-#define GM_SETTINGSLISTWIDGET_H
+#pragma once
 
 #include <QListWidget>
 
@@ -45,4 +44,3 @@ private:
 
 };
 
-#endif

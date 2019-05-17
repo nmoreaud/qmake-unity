@@ -1,5 +1,4 @@
-#ifndef ECCHASER_H
-#define ECCHASER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -111,4 +110,3 @@ private:
 };
 
 }
-#endif

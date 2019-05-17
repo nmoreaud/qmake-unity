@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef AKN_PLUGIN_H
-#define AKN_PLUGIN_H
+#pragma once
 
 #include <QPointer>
 
@@ -52,4 +51,3 @@ private:
     AKN_Handler* m_handler;
 };
 
-#endif

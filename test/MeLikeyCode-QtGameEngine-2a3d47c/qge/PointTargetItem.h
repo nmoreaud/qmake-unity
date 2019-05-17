@@ -1,5 +1,4 @@
-#ifndef POINTTARGETITEM_H
-#define POINTTARGETITEM_H
+#pragma once
 
 #include "Item.h"
 
@@ -34,4 +33,3 @@ private:
 };
 
 }
-#endif

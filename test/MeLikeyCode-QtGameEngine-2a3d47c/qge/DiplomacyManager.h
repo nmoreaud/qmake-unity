@@ -1,5 +1,4 @@
-#ifndef DIPLOMACYMANAGER_H
-#define DIPLOMACYMANAGER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -48,4 +47,3 @@ private:
 };
 
 }
-#endif

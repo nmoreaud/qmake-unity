@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef WEBHITTESTRESULT_H
-#define WEBHITTESTRESULT_H
+#pragma once
 
 #include <QUrl>
 #include <QRect>
@@ -72,4 +71,3 @@ private:
     QString m_tagName;
 };
 
-#endif

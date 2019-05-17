@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ENHANCEDMENU_H
-#define ENHANCEDMENU_H
+#pragma once
 
 #include <QMenu>
 
@@ -68,4 +67,3 @@ public slots:
 
 };
 
-#endif

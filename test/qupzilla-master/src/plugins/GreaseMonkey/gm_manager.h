@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_MANAGER_H
-#define GM_MANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QStringList>
@@ -87,4 +86,3 @@ private:
     QHash<BrowserWindow*, GM_Icon*> m_windows;
 };
 
-#endif

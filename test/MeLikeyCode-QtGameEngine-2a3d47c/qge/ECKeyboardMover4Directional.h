@@ -1,5 +1,4 @@
-#ifndef ECKEYBOARDMOVER4DIRECTIONAL_H
-#define ECKEYBOARDMOVER4DIRECTIONAL_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -39,4 +38,3 @@ private:
 };
 
 }
-#endif

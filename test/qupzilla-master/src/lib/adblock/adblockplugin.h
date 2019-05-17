@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef ADBLOCKPLUGIN_H
-#define ADBLOCKPLUGIN_H
+#pragma once
 
 #include "plugininterface.h"
 
@@ -41,4 +40,3 @@ private:
     bool acceptNavigationRequest(WebPage *page, const QUrl &url, QWebEnginePage::NavigationType type, bool isMainFrame) override;
 
 };
-#endif

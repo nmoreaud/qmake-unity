@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef QXLSX_XLSXDRAWINGANCHOR_P_H
-#define QXLSX_XLSXDRAWINGANCHOR_P_H
+#pragma once
 
 #include "xlsxglobal.h"
 
@@ -148,4 +147,3 @@ public:
 
 } // namespace QXlsx
 
-#endif // QXLSX_XLSXDRAWINGANCHOR_P_H

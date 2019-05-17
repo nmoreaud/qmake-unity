@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HEADERVIEW_H
-#define HEADERVIEW_H
+#pragma once
 
 #include <QHeaderView>
 
@@ -50,4 +49,3 @@ private:
     QByteArray m_restoreData;
 };
 
-#endif

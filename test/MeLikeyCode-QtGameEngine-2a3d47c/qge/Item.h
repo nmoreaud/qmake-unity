@@ -1,5 +1,4 @@
-#ifndef ITEM_H
-#define ITEM_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -49,4 +48,3 @@ private:
 };
 
 }
-#endif

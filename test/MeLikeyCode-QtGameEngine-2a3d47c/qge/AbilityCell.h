@@ -1,5 +1,4 @@
-#ifndef ABILITYCELL_H
-#define ABILITYCELL_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -48,4 +47,3 @@ private:
 };
 
 }
-#endif

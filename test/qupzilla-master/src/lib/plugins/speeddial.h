@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef SPEEDDIAL_H
-#define SPEEDDIAL_H
+#pragma once
 
 #include <QObject>
 #include <QPointer>
@@ -112,4 +111,3 @@ private:
     bool m_regenerateScript;
 };
 
-#endif

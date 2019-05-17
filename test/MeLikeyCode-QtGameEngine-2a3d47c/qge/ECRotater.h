@@ -1,5 +1,4 @@
-#ifndef ECROTATER_H
-#define ECROTATER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -63,4 +62,3 @@ private:
 };
 
 }
-#endif

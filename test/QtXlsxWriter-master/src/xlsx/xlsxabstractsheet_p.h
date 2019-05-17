@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXABSTRACTSHEET_P_H
-#define XLSXABSTRACTSHEET_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -61,4 +60,3 @@ public:
 };
 
 }
-#endif // XLSXABSTRACTSHEET_P_H

@@ -43,8 +43,7 @@
  * SUCH DAMAGE.
  */
 
-#ifndef ADBLOCKRULE_H
-#define ADBLOCKRULE_H
+#pragma once
 
 #include <QObject>
 #include <QStringList>
@@ -194,4 +193,3 @@ private:
 };
 
 
-#endif

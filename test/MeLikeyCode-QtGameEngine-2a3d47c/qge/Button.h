@@ -1,5 +1,4 @@
-#ifndef BUTTON_H
-#define BUTTON_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -58,4 +57,3 @@ private:
 };
 
 }
-#endif

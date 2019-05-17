@@ -1,5 +1,4 @@
-#ifndef INVENTORYVIEWER_H
-#define INVENTORYVIEWER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -73,4 +72,3 @@ private:
 };
 
 }
-#endif

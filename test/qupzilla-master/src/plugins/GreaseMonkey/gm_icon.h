@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef GM_ICON_H
-#define GM_ICON_H
+#pragma once
 
 #include "abstractbuttoninterface.h"
 
@@ -39,4 +38,3 @@ private:
     GM_Manager *m_manager;
 };
 
-#endif

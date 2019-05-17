@@ -35,8 +35,7 @@
  *
  */
 
-#ifndef QJTMOUSEGESTUREFILTER_H
-#define QJTMOUSEGESTUREFILTER_H
+#pragma once
 
 #include <QObject>
 #include <QEvent>
@@ -91,4 +90,3 @@ private:
 };
 
 
-#endif

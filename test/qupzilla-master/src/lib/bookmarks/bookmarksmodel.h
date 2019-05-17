@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKSMODEL_H
-#define BOOKMARKSMODEL_H
+#pragma once
 
 #include <QAbstractItemModel>
 #include <QSortFilterProxyModel>
@@ -99,4 +98,3 @@ private:
     QTimer* m_filterTimer;
 };
 
-#endif

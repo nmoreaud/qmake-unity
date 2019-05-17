@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TABSTACKEDWIDGET_H
-#define TABSTACKEDWIDGET_H
+#pragma once
 
 #include "qzcommon.h"
 
@@ -94,4 +93,3 @@ private:
     int m_previousIndex;
 };
 
-#endif

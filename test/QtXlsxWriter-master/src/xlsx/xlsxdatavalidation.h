@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_XLSXDATAVALIDATION_H
-#define QXLSX_XLSXDATAVALIDATION_H
+#pragma once
 
 #include "xlsxglobal.h"
 #include <QSharedDataPointer>
@@ -120,4 +119,3 @@ private:
 
 QT_END_NAMESPACE_XLSX
 
-#endif // QXLSX_XLSXDATAVALIDATION_H

@@ -1,5 +1,4 @@
-#ifndef ECBODYTHRUSTER_H
-#define ECBODYTHRUSTER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -58,4 +57,3 @@ private:
 };
 
 }
-#endif

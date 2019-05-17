@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef VERTICALTABSSETTINGS_H
-#define VERTICALTABSSETTINGS_H
+#pragma once
 
 #include <QDialog>
 
@@ -42,4 +41,3 @@ private:
     Ui::VerticalTabsSettings *ui;
     VerticalTabsPlugin *m_plugin;
 };
-#endif

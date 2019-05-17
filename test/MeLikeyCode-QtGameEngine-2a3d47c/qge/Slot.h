@@ -1,5 +1,4 @@
-#ifndef SLOT_H
-#define SLOT_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -52,4 +51,3 @@ protected:
 };
 
 }
-#endif

@@ -16,8 +16,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef PIM_SETTINGS_H
-#define PIM_SETTINGS_H
+#pragma once
 
 #include <QDialog>
 
@@ -45,4 +44,3 @@ private:
     QString m_settingsFile;
 };
 
-#endif

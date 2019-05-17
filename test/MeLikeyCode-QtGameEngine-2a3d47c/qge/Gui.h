@@ -1,5 +1,4 @@
-#ifndef GUI_H
-#define GUI_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -57,4 +56,3 @@ private:
 };
 
 }
-#endif

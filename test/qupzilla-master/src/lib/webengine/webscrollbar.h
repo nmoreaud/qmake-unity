@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef WEBSCROLLBAR_H
-#define WEBSCROLLBAR_H
+#pragma once
 
 #include <QScrollBar>
 
@@ -43,4 +42,3 @@ private:
     bool m_blockScrolling = false;
 };
 
-#endif

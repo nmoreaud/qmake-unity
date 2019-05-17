@@ -35,8 +35,7 @@
  *
  */
 
-#ifndef MOUSEGESTURERECOGNIZER_H
-#define MOUSEGESTURERECOGNIZER_H
+#pragma once
 
 #include <list>
 #include <vector>
@@ -114,4 +113,3 @@ private:
 };
 
 
-#endif

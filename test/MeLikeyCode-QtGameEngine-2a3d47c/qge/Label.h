@@ -1,5 +1,4 @@
-#ifndef LABEL_H
-#define LABEL_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -55,4 +54,3 @@ private:
 };
 
 }
-#endif

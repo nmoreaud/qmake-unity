@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef WEBSCROLLBARMANAGER_H
-#define WEBSCROLLBARMANAGER_H
+#pragma once
 
 #include <QObject>
 #include <QHash>
@@ -52,4 +51,3 @@ private:
     QHash<WebView*, struct ScrollBarData*> m_scrollbars;
 };
 
-#endif

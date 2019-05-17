@@ -1,5 +1,4 @@
-#ifndef POSITIONALSOUND_H
-#define POSITIONALSOUND_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -56,4 +55,3 @@ private:
 };
 
 }
-#endif

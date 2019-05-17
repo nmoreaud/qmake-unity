@@ -1,5 +1,4 @@
-#ifndef GRID_H
-#define GRID_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -70,4 +69,3 @@ private:
 };
 
 }
-#endif

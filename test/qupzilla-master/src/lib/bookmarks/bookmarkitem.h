@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef BOOKMARKITEM_H
-#define BOOKMARKITEM_H
+#pragma once
 
 #include <QString>
 #include <QList>
@@ -103,4 +102,3 @@ private:
     bool m_sidebarExpanded;
 };
 
-#endif

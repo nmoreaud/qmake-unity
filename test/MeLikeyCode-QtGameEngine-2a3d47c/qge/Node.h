@@ -1,5 +1,4 @@
-#ifndef NODE_H
-#define NODE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -52,4 +51,3 @@ template <> struct hash<qge::Node>
     }
 };
 }
-#endif

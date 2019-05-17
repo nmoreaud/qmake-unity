@@ -1,5 +1,4 @@
-#ifndef ENTITY_H
-#define ENTITY_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -229,4 +228,3 @@ namespace std{
     }
 };
 }
-#endif

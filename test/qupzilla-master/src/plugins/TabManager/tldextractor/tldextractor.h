@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef TLDEXTRACTOR_H
-#define TLDEXTRACTOR_H
+#pragma once
 
 #define TLDExtractor_Version "1.0"
 
@@ -79,4 +78,3 @@ private:
     QMultiHash<QString, QString> m_tldHash;
 };
 
-#endif

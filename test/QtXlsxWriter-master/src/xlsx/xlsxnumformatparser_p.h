@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_NUMFORMATPARSER_H
-#define QXLSX_NUMFORMATPARSER_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -48,4 +47,3 @@ public:
 
 } // namespace QXlsx
 
-#endif // QXLSX_NUMFORMATPARSER_H

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef QUPZILLASCHEMEHANDLER_H
-#define QUPZILLASCHEMEHANDLER_H
+#pragma once
 
 #include <QBuffer>
 #include <QIODevice>
@@ -63,4 +62,3 @@ private:
     QWebEngineUrlRequestJob *m_job;
 };
 
-#endif

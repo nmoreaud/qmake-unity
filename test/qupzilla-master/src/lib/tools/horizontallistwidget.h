@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HORIZONTALLISTWIDGET_H
-#define HORIZONTALLISTWIDGET_H
+#pragma once
 
 #include <QListWidget>
 
@@ -34,4 +33,3 @@ private:
     bool m_mouseDown;
 };
 
-#endif

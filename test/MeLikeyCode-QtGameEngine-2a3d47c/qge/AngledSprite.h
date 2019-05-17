@@ -1,5 +1,4 @@
-#ifndef ANGLEDSPRITE_H
-#define ANGLEDSPRITE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -56,4 +55,3 @@ private:
 };
 
 }
-#endif

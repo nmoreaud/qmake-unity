@@ -1,5 +1,4 @@
-#ifndef SPRITESHEET_H
-#define SPRITESHEET_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -38,4 +37,3 @@ private:
 };
 
 }
-#endif

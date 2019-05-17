@@ -1,5 +1,4 @@
-#ifndef TERRAINLAYER_H
-#define TERRAINLAYER_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -71,4 +70,3 @@ private:
 };
 
 }
-#endif

@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef WHEELHELPER_H
-#define WHEELHELPER_H
+#pragma once
 
 #include <QQueue>
 
@@ -46,4 +45,3 @@ private:
     QQueue<Direction> m_directions;
 };
 
-#endif

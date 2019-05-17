@@ -1,5 +1,4 @@
-#ifndef SPRITE_H
-#define SPRITE_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -97,4 +96,3 @@ private:
 };
 
 }
-#endif

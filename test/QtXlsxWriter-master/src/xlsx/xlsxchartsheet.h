@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXCHARTSHEET_H
-#define XLSXCHARTSHEET_H
+#pragma once
 
 #include "xlsxabstractsheet.h"
 #include <QStringList>
@@ -53,4 +52,3 @@ private:
 };
 
 QT_END_NAMESPACE_XLSX
-#endif // XLSXCHARTSHEET_H

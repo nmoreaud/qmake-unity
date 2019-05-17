@@ -23,8 +23,7 @@
 **
 ****************************************************************************/
 
-#ifndef XLSXDOCUMENT_P_H
-#define XLSXDOCUMENT_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -66,4 +65,3 @@ public:
 
 }
 
-#endif // XLSXDOCUMENT_P_H

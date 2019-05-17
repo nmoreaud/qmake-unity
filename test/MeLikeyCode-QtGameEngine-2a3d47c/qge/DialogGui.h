@@ -1,5 +1,4 @@
-#ifndef DIALOGGUI_H
-#define DIALOGGUI_H
+#pragma once
 
 #include "Vendor.h"
 
@@ -137,4 +136,3 @@ private:
 };
 
 }
-#endif

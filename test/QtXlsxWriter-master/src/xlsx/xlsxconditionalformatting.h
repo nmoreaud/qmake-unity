@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef QXLSX_XLSXCONDITIONALFORMATTING_H
-#define QXLSX_XLSXCONDITIONALFORMATTING_H
+#pragma once
 
 #include "xlsxglobal.h"
 #include "xlsxcellrange.h"
@@ -132,4 +131,3 @@ private:
 
 QT_END_NAMESPACE_XLSX
 
-#endif // QXLSX_XLSXCONDITIONALFORMATTING_H

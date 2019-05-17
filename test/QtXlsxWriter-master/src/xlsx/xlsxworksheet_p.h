@@ -22,8 +22,7 @@
 ** WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 **
 ****************************************************************************/
-#ifndef XLSXWORKSHEET_P_H
-#define XLSXWORKSHEET_P_H
+#pragma once
 
 //
 //  W A R N I N G
@@ -230,4 +229,3 @@ private:
 };
 
 }
-#endif // XLSXWORKSHEET_P_H

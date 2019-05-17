@@ -1,5 +1,4 @@
-#ifndef NOTARGETITEM_H
-#define NOTARGETITEM_H
+#pragma once
 
 #include "Item.h"
 
@@ -34,4 +33,3 @@ private:
 };
 
 }
-#endif

@@ -16,8 +16,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
 
-#ifndef RECOVERYJSOBJECT_H
-#define RECOVERYJSOBJECT_H
+#pragma once
 
 #include <QObject>
 #include <QJsonArray>
@@ -49,4 +48,3 @@ private:
     WebPage *m_page;
 };
 
-#endif

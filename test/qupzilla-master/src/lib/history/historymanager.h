@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef HISTORYMANAGER_H
-#define HISTORYMANAGER_H
+#pragma once
 
 #include <QWidget>
 #include <QPointer>
@@ -74,4 +73,3 @@ private:
     QPointer<BrowserWindow> m_window;
 };
 
-#endif

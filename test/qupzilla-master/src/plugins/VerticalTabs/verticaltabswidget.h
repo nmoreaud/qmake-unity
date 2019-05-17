@@ -15,8 +15,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * ============================================================ */
-#ifndef VERTICALTABSWIDGET_H
-#define VERTICALTABSWIDGET_H
+#pragma once
 
 #include <QWidget>
 
@@ -58,4 +57,3 @@ private:
     WheelHelper m_wheelHelper;
     QMenu *m_groupMenu;
 };
-#endif

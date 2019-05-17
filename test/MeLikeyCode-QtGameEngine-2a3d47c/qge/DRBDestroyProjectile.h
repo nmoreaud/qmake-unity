@@ -1,5 +1,4 @@
-#ifndef DRBDESTROYPROJECTILE_H
-#define DRBDESTROYPROJECTILE_H
+#pragma once
 
 #include "DestReachedBehavior.h"
 
@@ -15,4 +14,3 @@ public:
 };
 
 }
-#endif
