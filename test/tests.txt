@@ -9,3 +9,4 @@ Compile project : src/xlsx/xlsx.pro
 
 - QGE has been compiled with mingw and MSVC 2017 (no dependencies)
 Compile project : testProject/QGETestGame.pro
+Allow the namespace QGE to be grouped

@@ -5,9 +5,9 @@
         UNITY_SCRIPTS_DIR = $$clean_path($${PWD})
 
         !defined(UNITY_DIR, var) {
-            # This config makes QtCreator display both release and debug unity directory in "project view" > "source tree"
-            # when shadow build are disabled.
-            # If this annoys you, you can enable out of source builds, please see bellow)
+            # This config makes QtCreator display both release and debug unity directories in
+            # QtCreator's project view > "source tree" when shadow build are disabled.
+            # If this annoys you, you can enable out of source builds (please see bellow)
             CONFIG(debug, debug|release) {
                 UNITY_DIR = $$OUT_PWD/debug/unity/
             } else {
@@ -28,7 +28,7 @@
         # } else {
         #     OUTPUT_BASE_PATH = $$OUTPUT_BASE_PATH/release
         # }
-        # UNITY_TMP_DIR = $$OUTPUT_BASE_PATH/unity/
+        # UNITY_DIR = $$OUTPUT_BASE_PATH/unity/
         #
         # To also put the object files outside, uncomment the following lines
         #

@@ -54,7 +54,6 @@ updateqm.commands = $$QMAKE_LRELEASE -silent ${QMAKE_FILE_IN} -qm $$PLUGIN_DIR/l
 updateqm.CONFIG += no_link target_predeps
 QMAKE_EXTRA_COMPILERS += updateqm
 
-UNITY_TMP_DIR=$$clean_path($$PWD/../build/unity/)
 UNITY_BUILD = 1
-UNITY_MOC_MODE = MOC_LVL_1
-include(../../../qmakeUnity/qmake_unity.pri)
+UNITY_MOC_MODE = MOC_LVL_2
+#include(../../../qmakeUnity/qmake_unity.pri)
