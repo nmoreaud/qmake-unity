@@ -1,1 +1,4 @@
 /test           export-ignore
+/TODO.MD         export-ignore
+/.gitignore      export-ignore
+/.gitattributes  export-ignore
