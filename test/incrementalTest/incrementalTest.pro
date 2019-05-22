@@ -17,6 +17,8 @@ SOURCES += \
         tasks/legacy_namespace/tasklegacynamespaceb.cpp \
         tasks/singletask.cpp \
         tasks/task1.cpp \
+        tasks/subtasks/subtask1.cpp \
+        tasks/subtasks/subtask2.cpp \
         ../incrementalTest/tasks/task2.cpp
 
 HEADERS += \
@@ -30,8 +32,10 @@ HEADERS += \
     tasks/legacy_namespace/tasklegacynamespaceb.h \
     tasks/singletask.h \
     tasks/task1.h \
+    tasks/subtasks/subtask1.h \
+    tasks/subtasks/subtask2.h \
     ../incrementalTest/tasks/task2.h
 
 UNITY_BUILD = 1
-UNITY_MOC_MODE = MOC_LVL_1
+UNITY_MOC_MODE = MOC_LVL_0
 include(../../qmakeUnity/qmake_unity.pri)

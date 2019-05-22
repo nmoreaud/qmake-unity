@@ -23,7 +23,7 @@ def utf8_file_read(file):
 
 def file_remove(filePath):
     if SAFE_MODE:
-        print_debug(f'SAFE MODE - simulate delete file "{filePath}" ({os.path.abspath(filePath)})', True)
+        print_debug('SAFE MODE - simulate delete file "' + filePath + '" (' + os.path.abspath(filePath) + ')', True)
     else:
         os.remove(filePath)
 
@@ -87,7 +87,7 @@ class ProjectSourceFile:
         return hash(self.pathFromProject)
 
     def __eq__(self, other):
-        #print(f'test eq "{self.pathFromProject}", "{other.pathFromProject}"')
+        #print_dev('test eq "' + self.pathFromProject + '", "' + other.pathFromProject + '"')
         return self.pathFromProject == other.pathFromProject
     
     @staticmethod

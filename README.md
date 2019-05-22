@@ -3,7 +3,6 @@
 
 QMake-unity is a standalone tool to speed up the compilation of qmake based C++ projects.
 
-
 ## General concepts
 
 Unity build, jumbo builds and single compilation unit (SCU) are a technique to speedup C++ compilation process.
@@ -176,6 +175,12 @@ Procedure to reproduce :
 - copy and paste the contents of your colleague's `tmp/unity/` directory in you own tmp directory
 - build the project without calling qmake (make only) ; the same error should happen.
 
+**I recently enabled/disabled shadow builds, or changed the temporary files directory. Now, jom complains about missing files/includes not found**
+
+Please remove all old temporary files and directories.
+During qmake step, they would alter the Makefile generation resulting in an invalid Makefile...
+For example, there could be an old `debug` or `release` directory in your project sources...
+
 **The `__FILE__` macro doesn't return the filename anymore, it return a relative path !**
 
 True ! We cannot resolve this as it is part of the compiler behavior, but there is a workaround.
@@ -195,6 +200,10 @@ QString unityExtractFileNameFromPath(const char * iFilePath)
 }
 ```
 
+** I get this kind of debug messages : `debug - SAFE MODE - simulate delete file "unity_5.cpp" (C:/dev/MyProject/tmp/debug/unity/unity_5.cpp)`
+
+Please disable `SAFE_MODE`. It was implemented to protect you against source file loss in case in the case of a badly configured qmake project.
+
 ## Known issues
 
 * `MOC_LVL_2` works only with pragma once; there is no workaround for now
@@ -208,7 +217,7 @@ Either build in QtCreator or from command line. Visual studio [may be able to su
 
 ## Performances
 
-Here is a benchmark where we fully build a few open source projects from scratch.
+Here is a benchmark where we build a few open source projects from scratch.
 It has been run on a Windows 10 laptop powered by an i5 8250u.
 
 ### [QupZilla](https://github.com/QupZilla/qupzilla) built with `MSVC`

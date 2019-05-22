@@ -38,16 +38,7 @@ class Group:
         for source in self.sources:
             if type == 'cpp':
                 fileIncludes.append('#include "%s"' % (source.RelativePath()))
-            else:
-                # Does not work with #pragma once and mingw...
-                # grouping #include "moc_XXX.cpp" makes qmake not calling moc on XXX.h...
-                
-                # works well with include guards and mingw.
-                
-                # Todo : improve and create test cases
-                # 2 cases : parent/subdir
-                # 3 cases : normal/shadow/bin
-                # 4 cases : raw, MOC_LVL_[0,1,2]                
+            else:                
                 # moc_afile.h
                 mocHeaderRelPath = source.FileName()
                 dotIndex = mocHeaderRelPath.rfind('.')
