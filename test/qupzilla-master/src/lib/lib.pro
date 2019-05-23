@@ -502,6 +502,9 @@ message(===========================================)
 message( Using following defines:)
 message(  $$DEFINES)
 
+PRECOMPILED_HEADER = pch.h
+CONFIG += precompile_header
+
 UNITY_BUILD = 1
 UNITY_MOC_MODE = MOC_LVL_2
 include(../../../../qmakeUnity/qmake_unity.pri)

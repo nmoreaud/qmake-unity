@@ -20,6 +20,7 @@ There are two optimization levels for moc objects :
 - group every QObject classes (headers) into a single header, then call moc on this file. (`MOC_LVL_2`, even faster)
 
 QMake-unity provides good integration with Qt 5 tooling system (qmake, moc, qt-creator) and with MSBuild.
+It is compatible with precompiled headers (PCH).
 
 Here are general articles if you want to understand how it works :
 - [Jumbo, A unity build system for Chromium](https://bit.ly/jumbo-blinkon9)
@@ -222,14 +223,21 @@ It has been run on a Windows 10 laptop powered by an i5 8250u.
 
 ### [QupZilla](https://github.com/QupZilla/qupzilla) built with `MSVC`
 
-| Project part | QMake-unity  | Time             |
-| ------------ | ------------ | ---------------- |
-| lib          | not enabled  | 3m14             |
-| lib          | MOC_LVL_1    | 52s (73% faster) |
-| lib          | MOC_LVL_2    | 26s (87% faster) |
-| plugins      | not enabled  | 1m15             |
-| plugins      | MOC_LVL_1    | 27s (64% faster) |
-| plugins      | MOC_LVL_2    | 22s (71% faster) |
+PCH raw = 59s
+PCH + MOC_LVL_1 = 35s
+PCH + MOC_LVL_2 = 19s
+
+| Project part | QMake-unity  | PreCompiledHeader (PCH) | Time             |
+| ------------ | ------------ | ----------------------- | ---------------- |
+| lib          | not enabled  | not enabled             | 3m14             |
+| lib          | MOC_LVL_1    | not enabled             | 52s (73% faster) |
+| lib          | MOC_LVL_2    | not enabled             | 26s (87% faster) |
+| lib          | not enabled  | enabled                 | 59s (70% faster) |
+| lib          | MOC_LVL_1    | enabled                 | 35s (82% faster) |
+| lib          | MOC_LVL_2    | enabled                 | 15s (92% faster) |
+| plugins      | not enabled  | not enabled             | 1m15             |
+| plugins      | MOC_LVL_1    | not enabled             | 27s (64% faster) |
+| plugins      | MOC_LVL_2    | not enabled             | 22s (71% faster) |
 
 ### [QtXlsxWriter](https://github.com/dbzhang800/QtXlsxWriter) built with `MinGW`
 | QMake-unity  | Time             |
@@ -252,9 +260,9 @@ It has been run on a Windows 10 laptop powered by an i5 8250u.
 ## What else can I do to speedup my build
 
 **Pure C++ techniques :**
+- Use precompiled headers (PCH) : useful for big executables/libraries
 - Forward declare headers (incremental build)
 - Write less templates
-- Use precompiled headers (PCH)
 
 **Qt :**
 - If you build in VisualStudio, install Qt Visual Studio Tools <= 2.2; which now supports parallel calls of moc.
