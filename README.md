@@ -5,9 +5,9 @@ QMake-unity is a standalone tool to speed up the compilation of qmake based C++ 
 
 ## General concepts
 
-Unity build, jumbo builds and single compilation unit (SCU) are a technique to speedup C++ compilation process.
+Unity build, jumbo builds and single compilation unit (SCU) are a technique to speed up C++ compilation process.
 It consists of grouping/merging several CPP files before compilation.
-QMake-unity automates the process of grouping files and may speedup the compilation by 10% to 90%.
+QMake-unity automates the process of grouping files and may speed up the compilation by 10% to 90%.
 
 It can act at two levels :
 
@@ -83,7 +83,7 @@ There are 3 possible strategies to group cpp files together :
 - `UNITY_MOC_MODE` :
 `MOC_LVL_0` : don't optimize MOC process.
 `MOC_LVL_1` : group the compilation of moc_file1.cpp and moc_file2.cpp
-`MOC_LVL_2` : group MOC invokation of file1.h and file2.h, then build the resulting cpp file
+`MOC_LVL_2` : group MOC call for file1.h and file2.h, then build the resulting cpp file
 Please note that `MOC_LVL_2` requires "#pragma once" to work instead of classic include guards
 
 There are also a few options in `unity_config.py` : 
@@ -223,10 +223,6 @@ It has been run on a Windows 10 laptop powered by an i5 8250u.
 
 ### [QupZilla](https://github.com/QupZilla/qupzilla) built with `MSVC`
 
-PCH raw = 59s
-PCH + MOC_LVL_1 = 35s
-PCH + MOC_LVL_2 = 19s
-
 | Project part | QMake-unity  | PreCompiledHeader (PCH) | Time             |
 | ------------ | ------------ | ----------------------- | ---------------- |
 | lib          | not enabled  | not enabled             | 3m14             |
@@ -257,7 +253,7 @@ PCH + MOC_LVL_2 = 19s
 | MinGW    | MOC_LVL_2    | 31s (54% faster) |
 
 
-## What else can I do to speedup my build
+## What else can I do to speed up my build
 
 **Pure C++ techniques :**
 - Use precompiled headers (PCH) : useful for big executables/libraries
