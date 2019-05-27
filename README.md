@@ -7,7 +7,7 @@ QMake-unity is a standalone tool to speed up the compilation of qmake based C++ 
 
 Unity build, jumbo builds and single compilation unit (SCU) are a technique to speed up C++ compilation process.  
 It consists of grouping/merging several CPP files before compilation.  
-QMake-unity automates the process of grouping files and may speed up the compilation by 10% to 90%.
+QMake-unity automates the process of grouping files and may speed up the compilation by [10% to 90%](#performances).
 
 It can act at two levels :
 
@@ -80,10 +80,10 @@ There are 3 possible strategies to group cpp files together :
   * `per-processor` generates one CPP per processor. You can set your number of processors in `unity_config.py`.
   * `single-compilation-unit` : generated a single CPP file for your entire project.
 
-- `UNITY_MOC_MODE` :
-`MOC_LVL_0` : don't optimize MOC process.  
-`MOC_LVL_1` : group the compilation of moc_file1.cpp and moc_file2.cpp  
-`MOC_LVL_2` : group MOC call for file1.h and file2.h, then build the resulting cpp file  
+- `UNITY_MOC_MODE` : 
+  * `MOC_LVL_0` : don't optimize MOC process.  
+  * `MOC_LVL_1` : group the compilation of moc_file1.cpp and moc_file2.cpp  
+  * `MOC_LVL_2` : group MOC call for file1.h and file2.h, then build the resulting cpp file  
 Please note that `MOC_LVL_2` requires "#pragma once" to work instead of classic include guards
 
 There are also a few options in `unity_config.py` : 
@@ -258,11 +258,12 @@ It has been run on a Windows 10 laptop powered by an i5 8250u.
 
 **Pure C++ techniques :**
 - Use precompiled headers (PCH) : useful for big executables/libraries
-- Forward declare headers (incremental build)
+- Forward declare headers
 - Write less templates
 
-**Qt :**
-- If you build in VisualStudio, install Qt Visual Studio Tools <= 2.2; which now supports parallel calls of moc.
+**QMake :**
+- If you build in VisualStudio, install Qt Visual Studio Tools ≥ 2.2; which now supports parallel calls of moc.
+- If you use QMake and you have many projects to build, you can build them in parallel using a `SUBDIRS` project without the `ORDERED` directive.
 
 **Improve your build process :**
 - Build CPP files and projects in parallel (ex qmake with subdirs, make -j8, vc++ /MP...)
