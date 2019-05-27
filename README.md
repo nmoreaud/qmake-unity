@@ -7,7 +7,7 @@ QMake-unity is a standalone tool to speed up the compilation of qmake based C++ 
 
 Unity build, jumbo builds and single compilation unit (SCU) are a technique to speed up C++ compilation process.  
 It consists of grouping/merging several CPP files before compilation.  
-QMake-unity automates the process of grouping files and may speed up the compilation by [10% to 90%](#performances).
+QMake-unity automates the process of grouping files and may speed up the compilation by [40% to 90%](#performances).
 
 It can act at two levels :
 
